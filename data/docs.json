@@ -1,0 +1,42 @@
+[
+  {
+    "id": "acta-01",
+    "titulo": "Acta Reunión 6 de Agosto",
+    "semana": 1,
+    "roles": ["general"],
+    "tipo": "pdf",
+    "ruta": "docs/semana-1/acta-01.pdf",
+    "destacado": true,
+    "fecha": "2025-08-06"
+  },
+  {
+    "id": "script-inicial",
+    "titulo": "Script inicial del proyecto",
+    "semana": 1,
+    "roles": ["general"],
+    "tipo": "pdf",
+    "ruta": "docs/semana-1/script.pdf",
+    "destacado": false,
+    "fecha": "2025-08-08"
+  },
+  {
+    "id": "bitacora-equipo-s1",
+    "titulo": "Bitácora — Líder de equipo (Semana 1)",
+    "semana": 1,
+    "roles": ["lider-de-equipo"],
+    "tipo": "pdf",
+    "ruta": "docs/semana-1/bitacora-lider-equipo.pdf",
+    "destacado": true,
+    "fecha": "2025-08-07"
+  },
+  {
+    "id": "plan-calidad-s2",
+    "titulo": "Plan de Calidad — Líder de calidad (Semana 2)",
+    "semana": 2,
+    "roles": ["lider-de-calidad"],
+    "tipo": "pdf",
+    "ruta": "docs/semana-2/plan-calidad.pdf",
+    "destacado": false,
+    "fecha": "2025-08-14"
+  }
+]

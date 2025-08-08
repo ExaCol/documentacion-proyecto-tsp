@@ -3,52 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Proyecto Áncora - TSP</title>
-  <link rel="stylesheet" href="css/index.css" />
-  <style>/* estilos existentes */</style>
+  <title>Áncora TSP — Inicio</title>
+  <link rel="stylesheet" href= "css/index.css" />
+  <script defer src="scripts/main.js"></script>
 </head>
 <body>
   <header>
-    <div class="container">
-      <img src="img/logo.png" alt="Logo equipo" class="logo" />
-      <h1>Proyecto Áncora</h1>
-      <p class="subtitulo">Documentación y avances - TSP</p>
+    <div class="wrap">
+      <img src="img/logo.png" alt="Logo EXA" class="logo" />
+      <div>
+        <div class="site-title">Proyecto Áncora</div>
+        <div class="site-sub">Documentación y avances — TSP</div>
+      </div>
     </div>
   </header>
 
   <nav class="navbar">
-    <a href="#sobre">Sobre el Proyecto</a>
-    <a href="#documentos">Documentos</a>
-    <a href="#avances">Avances</a>
+    <a href="index.html">Inicio</a>
+    <a href="documentos.html">Documentos</a>
+    <a href="rol.html?role=lider-de-equipo">Rol: Equipo</a>
+    <a href="rol.html?role=lider-de-desarrollo">Rol: Desarrollo</a>
+    <a href="rol.html?role=lider-de-calidad">Rol: Calidad</a>
+    <a href="rol.html?role=lider-de-soporte">Rol: Soporte</a>
+    <a href="rol.html?role=lider-de-planeacion">Rol: Planeación</a>
   </nav>
 
   <main>
-    <section id="sobre" class="seccion">
-      <h2>Sobre el Proyecto</h2>
-    
-    </section>
+    <div class="container grid cols-3">
+      <section class="card">
+        <h2>📌 Destacados</h2>
+        <div id="featured" class="doc-list"></div>
+      </section>
 
-    <section id="avances" class="seccion">
-      <h2>Avances</h2>
-      <ul class="avances-lista">
-        <li><strong>06/08/2025:</strong> Definición del nombre del equipo, logo, estructura del script y asignación de roles.</li>
-        <li><strong>08/08/2025:</strong> Entrega del script inicial y acta de reunión.</li>
-      </ul>
-    </section>
+      <section class="card">
+        <h2>🗂️ Semanas</h2>
+        <div id="weeks" class="grid cols-2"></div>
+      </section>
 
-    <section id="documentos" class="seccion">
-      <h2>Documentos del Proyecto</h2>
-      <div class="documentos">
-        <h3>Acta del 6 de Agosto</h3>
-        <iframe src="docs/Acta_Reunion_6_Agosto_2025_Exa.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 6px;"></iframe>
-
-        <h3>Script del Proyecto</h3>
-        <iframe src="docs/script.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 6px;"></iframe>
-      </div>
-    </section>
+      <section class="card">
+        <h2>👥 Roles</h2>
+        <div class="grid cols-2">
+          <a class="badge" href="rol.html?role=lider-de-equipo">Líder de equipo</a>
+          <a class="badge" href="rol.html?role=lider-de-desarrollo">Líder de desarrollo</a>
+          <a class="badge" href="rol.html?role=lider-de-calidad">Líder de calidad</a>
+          <a class="badge" href="rol.html?role=lider-de-soporte">Líder de soporte</a>
+          <a class="badge" href="rol.html?role=lider-de-planeacion">Líder de planeación</a>
+        </div>
+      </section>
+    </div>
   </main>
-  <footer>
-    <p>© 2025 - Equipo EXA | Proyecto Áncora</p>
-  </footer>
+
+  <footer>© 2025 — Equipo EXA | Proyecto Áncora</footer>
 </body>
 </html>
