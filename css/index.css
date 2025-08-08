@@ -1,0 +1,113 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ajuste necesario para mantener el footer abajo */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F8F6FA;
+  color: #3C2A4D;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #D1B3FF;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #3C2A4D;
+}
+
+.logo {
+  height: 60px;
+}
+
+/* Navegación */
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #3C2A4D;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #EBD8FF;
+}
+
+/* Contenido principal */
+main {
+  flex: 1; /* El truco para empujar el footer hacia abajo */
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section h2 {
+  color: #9775FA;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+section p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  background-color: #EBD8FF;
+  padding: 10px 15px;
+  border-left: 5px solid #B28DFF;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+  background-color: #D1B3FF;
+}
+
+a {
+  color: #3C2A4D;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #D1B3FF;
+  color: #3C2A4D;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  box-shadow: 0 -4px 8px rgba(0,0,0,0.05);
+}
