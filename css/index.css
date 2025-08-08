@@ -1,113 +1,126 @@
-/* Reset básico */
+:root {
+  --pastel-1: #EBD8FF; /* lila claro */
+      --pastel-2: #F5EDFF; /* fondo general */
+      --pastel-3: #DCC6FF; /* rosado morado */
+      --pastel-4: #C1A3FF; /* lavanda media */
+      --pastel-5: #A88BEB; /* morado pastel profundo */
+      --text-dark: #3C2A4D;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Ajuste necesario para mantener el footer abajo */
 html, body {
-  height: 100%;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: var(--pastel-2);
+  color: var(--text-dark);
+  scroll-behavior: smooth;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #F8F6FA;
-  color: #3C2A4D;
-  line-height: 1.6;
-}
-
-/* Encabezado */
 header {
-  background-color: #D1B3FF;
-  padding: 1.5rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: var(--pastel-1);
+  text-align: center;
+  padding: 2rem 1rem;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-header h1 {
-  font-size: 1.8rem;
-  color: #3C2A4D;
 }
 
 .logo {
-  height: 60px;
+  height: 80px;
+  margin-bottom: 1rem;
 }
 
-/* Navegación */
-nav a {
-  margin-left: 1rem;
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  color: var(--text-dark);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: var(--pastel-5);
+  padding: 0.8rem;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: white;
   text-decoration: none;
-  color: #3C2A4D;
-  font-weight: 600;
-  padding: 8px 12px;
-  border-radius: 8px;
+  font-weight: bold;
   transition: background-color 0.3s ease;
+  padding: 6px 12px;
+  border-radius: 6px;
 }
 
-nav a:hover {
-  background-color: #EBD8FF;
+.navbar a:hover {
+  background-color: var(--pastel-3);
 }
 
-/* Contenido principal */
-main {
-  flex: 1; /* El truco para empujar el footer hacia abajo */
-  padding: 2rem;
+.seccion {
+  padding: 3rem 2rem;
   max-width: 960px;
   margin: 0 auto;
+  background-color: white;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-section h2 {
-  color: #9775FA;
+.seccion h2 {
+  color: var(--pastel-5);
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
-section p {
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
+.documentos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-ul li {
-  margin: 10px 0;
-  background-color: #EBD8FF;
-  padding: 10px 15px;
-  border-left: 5px solid #B28DFF;
+.btn-doc {
+  background-color: var(--pastel-3);
+  padding: 12px 20px;
+  color: var(--text-dark);
+  text-decoration: none;
+  border-left: 5px solid var(--pastel-1);
   border-radius: 6px;
+  font-weight: 600;
   transition: background-color 0.3s ease;
 }
 
-ul li:hover {
-  background-color: #D1B3FF;
+.btn-doc:hover {
+  background-color: var(--pastel-1);
 }
 
-a {
-  color: #3C2A4D;
-  text-decoration: none;
+.avances-lista {
+  list-style: none;
+  margin-top: 1rem;
+  padding-left: 1rem;
 }
 
-a:hover {
-  text-decoration: underline;
+.avances-lista li {
+  background-color: var(--pastel-4);
+  margin-bottom: 1rem;
+  padding: 10px 15px;
+  border-left: 5px solid var(--pastel-5);
+  border-radius: 5px;
 }
 
-/* Footer */
 footer {
-  background-color: #D1B3FF;
-  color: #3C2A4D;
+  background-color: var(--pastel-1);
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  box-shadow: 0 -4px 8px rgba(0,0,0,0.05);
+  color: var(--text-dark);
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+  margin-top: 3rem;
 }

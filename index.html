@@ -2,28 +2,51 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Proyecto TSP - Áncora</title>
-  <link rel="stylesheet" href="css/index.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Áncora - TSP</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <style>/* estilos existentes */</style>
 </head>
 <body>
   <header>
-    <img src="img/logo.png" alt="Logo equipo" class="logo" />
-    <h1>Proyecto Áncora - TSP</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="documentos.html">Documentos</a>
-      <a href="avances.html">Avances</a>
-    </nav>
+    <div class="container">
+      <img src="img/logo.png" alt="Logo equipo" class="logo" />
+      <h1>Proyecto Áncora</h1>
+      <p class="subtitulo">Documentación y avances - TSP</p>
+    </div>
   </header>
 
+  <nav class="navbar">
+    <a href="#sobre">Sobre el Proyecto</a>
+    <a href="#documentos">Documentos</a>
+    <a href="#avances">Avances</a>
+  </nav>
+
   <main>
-    <section>
-      <h2>Bienvenidos</h2>
-      <p>Este sitio contiene la documentación oficial y los avances del equipo EXA en el marco del proyecto <strong>Áncora</strong>, desarrollado bajo el proceso TSP (Team Software Process).</p>
+    <section id="sobre" class="seccion">
+      <h2>Sobre el Proyecto</h2>
+    
+    </section>
+
+    <section id="avances" class="seccion">
+      <h2>Avances</h2>
+      <ul class="avances-lista">
+        <li><strong>06/08/2025:</strong> Definición del nombre del equipo, logo, estructura del script y asignación de roles.</li>
+        <li><strong>08/08/2025:</strong> Entrega del script inicial y acta de reunión.</li>
+      </ul>
+    </section>
+
+    <section id="documentos" class="seccion">
+      <h2>Documentos del Proyecto</h2>
+      <div class="documentos">
+        <h3>Acta del 6 de Agosto</h3>
+        <iframe src="docs/Acta_Reunion_6_Agosto_2025_Exa.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 6px;"></iframe>
+
+        <h3>Script del Proyecto</h3>
+        <iframe src="docs/script.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 6px;"></iframe>
+      </div>
     </section>
   </main>
-
   <footer>
     <p>© 2025 - Equipo EXA | Proyecto Áncora</p>
   </footer>
