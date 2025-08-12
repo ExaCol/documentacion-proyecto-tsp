@@ -18,7 +18,16 @@ const state = {
 
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => Array.from(document.querySelectorAll(s));
-const fmtDate = (d) => new Date(d).toLocaleString();
+const fmtDate = (d) => {
+  const date = new Date(d);
+  if (Number.isNaN(date.getTime())) return '';
+  return date.toLocaleDateString('es-ES', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric'
+  });
+};
+
 
 // --- Carga de manifiesto (soporta array o {documents:[]}) ---
 async function loadManifest() {

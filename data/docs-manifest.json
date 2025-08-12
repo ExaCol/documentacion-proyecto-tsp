@@ -1,15 +1,61 @@
 {
-  "roles": ["líder de calidad","líder de soporte","líder de desarrollo","líder de equipo","líder de planeación"],
+  "roles": [
+    "líder de calidad",
+    "líder de soporte",
+    "líder de desarrollo",
+    "líder de equipo",
+    "líder de planeación"
+  ],
   "documents": [
     {
-      "role": "líder de desarrollo",
+      "role": "líder de calidad",
+      "name": "actas de reuniones",
+      "version": "1.0",
+      "notes": "",
+      "filename": "01_ACTA_0608225.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-13",
+      "url": "./docs/lider-de-calidad/actas-de-reuniones/01_ACTA_0608225.pdf"
+    },
+    {
+      "role": "líder de calidad",
       "name": "bitacoras de tiempo",
       "version": "1.0",
       "notes": "",
-      "filename": "BitacoraTiempo.pdf",
+      "filename": "Bitacora01_08082025.pdf",
       "contentType": "application/pdf",
-      "updatedAt": "2025-08-06T16:30:00-05:00",
-      "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/BitacoraTiempo.pdf"
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora01_08082025.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "logs de defectos",
+      "version": "1.0",
+      "notes": "",
+      "filename": "Log Defectos 01.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-11",
+      "url": "./docs/lider-de-calidad/logs-de-defectos/Log Defectos 01.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "acta de iniciacion",
+      "version": "1.0",
+      "notes": "",
+      "filename": "Acta Iniciación 8_08_2025.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-13",
+      "url": "./docs/lider-de-calidad/Acta Iniciación 8_08_2025.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "script",
+      "version": "1.0",
+      "notes": "",
+      "filename": "SCRIPT_Definicion_de_procesos.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-calidad/SCRIPT_Definicion_de_procesos.pdf"
     }
   ]
 }

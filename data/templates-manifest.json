@@ -7,7 +7,7 @@
       "description": "Formato base para actas de reunión del proyecto.",
       "filename": "plantilla-acta.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "updatedAt": "2025-08-12T10:00:00-05:00",
+      "updatedAt": "2025-08-12",
       "url": "./templates/actas/plantilla-acta.docx",
       "tags": ["reuniones", "documentación"]
     },
@@ -18,7 +18,7 @@
       "description": "Informe mensual con secciones predefinidas.",
       "filename": "plantilla-informe.pdf",
       "contentType": "application/pdf",
-      "updatedAt": "2025-08-11T09:30:00-05:00",
+      "updatedAt": "2025-08-11",
       "url": "./templates/informes/plantilla-informe.pdf",
       "tags": ["calidad", "seguimiento"]
     }
