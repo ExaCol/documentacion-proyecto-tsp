@@ -1,26 +1,70 @@
 {
   "templates": [
     {
-      "name": "Plantilla de Acta",
+      "name": "Plantilla de Acta de iniciacion",
       "category": "actas",
-      "role": "líder de soporte",
-      "description": "Formato base para actas de reunión del proyecto.",
-      "filename": "plantilla-acta.docx",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla acta de iniciación.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "updatedAt": "2025-08-12",
-      "url": "./templates/actas/plantilla-acta.docx",
+      "url": "./docs/plantillas/Plantilla acta de iniciación.docx",
       "tags": ["reuniones", "documentación"]
     },
     {
-      "name": "Plantilla de Informe",
-      "category": "informes",
-      "role": "líder de calidad",
-      "description": "Informe mensual con secciones predefinidas.",
-      "filename": "plantilla-informe.pdf",
-      "contentType": "application/pdf",
-      "updatedAt": "2025-08-11",
-      "url": "./templates/informes/plantilla-informe.pdf",
-      "tags": ["calidad", "seguimiento"]
+      "name": "Plantilla de Actas",
+      "category": "actas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla actas.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-12",
+      "url": "./docs/plantillas/Plantilla actas.docx",
+      "tags": ["reuniones", "documentación"]
+    },
+    {
+      "name": "Plantilla bitacoras de tiempo",
+      "category": "bitacoras",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla bitacoras de tiempo.doc",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-12",
+      "url": "./docs/plantillas/Plantilla bitacoras de tiempo.doc",
+      "tags": ["reuniones", "documentación"]
+    },
+    {
+      "name": "Plantilla control de asignaciones",
+      "category": "",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla control de asignaciones.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "updatedAt": "2025-08-12",
+      "url": "./docs/plantillas/Plantilla control de asignaciones.xlsx",
+      "tags": [""]
+    },
+    {
+      "name": "Plantilla log defectos",
+      "category": "",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla log defectos.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-12",
+      "url": "./docs/plantillas/Plantilla log defectos.docx",
+      "tags": [""]
+    },
+    {
+      "name": "plantilla script definición de procesos",
+      "category": "",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla script definición de procesos.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-12",
+      "url": "./docs/plantillas/Plantilla script definición de procesos.docx",
+      "tags": [""]
     }
   ]
 }
