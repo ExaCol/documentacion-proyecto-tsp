@@ -126,6 +126,16 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-09",
       "url": "./docs/lider-de-soporte/log-de-defectos/log-defectos.pdf"
+    },
+    {
+      "role": "líder de soporte",
+      "name": "control de versiones",
+      "version": "1.0",
+      "notes": "",
+      "filename": "control-de-versiones.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-soporte/control-de-versiones.pdf"
     }
   ]
 }
