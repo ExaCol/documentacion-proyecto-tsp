@@ -2,57 +2,63 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Áncora TSP — Inicio</title>
-  <link rel="stylesheet" href= "css/index.css" />
-  <script defer src="scripts/main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portal TSP – Documentación y Versionado</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <img src="img/logo.png" alt="Logo EXA" class="logo" />
-      <div>
-        <div class="site-title">Proyecto Áncora</div>
-        <div class="site-sub">Documentación y avances — TSP</div>
-      </div>
-    </div>
-  </header>
-
-  <nav class="navbar">
-    <a href="index.html">Inicio</a>
-    <a href="documentos.html">Documentos</a>
-    <a href="rol.html?role=lider-de-equipo">Rol: Equipo</a>
-    <a href="rol.html?role=lider-de-desarrollo">Rol: Desarrollo</a>
-    <a href="rol.html?role=lider-de-calidad">Rol: Calidad</a>
-    <a href="rol.html?role=lider-de-soporte">Rol: Soporte</a>
-    <a href="rol.html?role=lider-de-planeacion">Rol: Planeación</a>
-  </nav>
-
-  <main>
-    <div class="container grid cols-3">
-      <section class="card">
-        <h2>📌 Destacados</h2>
-        <div id="featured" class="doc-list"></div>
-      </section>
-
-      <section class="card">
-        <h2>🗂️ Semanas</h2>
-        <div id="weeks" class="grid cols-2"></div>
-      </section>
-
-      <section class="card">
-        <h2>👥 Roles</h2>
-        <div class="grid cols-2">
-          <a class="badge" href="rol.html?role=lider-de-equipo">Líder de equipo</a>
-          <a class="badge" href="rol.html?role=lider-de-desarrollo">Líder de desarrollo</a>
-          <a class="badge" href="rol.html?role=lider-de-calidad">Líder de calidad</a>
-          <a class="badge" href="rol.html?role=lider-de-soporte">Líder de soporte</a>
-          <a class="badge" href="rol.html?role=lider-de-planeacion">Líder de planeación</a>
+  <div class="app">
+    <aside>
+      <div class="logo">
+        <div class="logo-badge" aria-hidden="true"></div>
+        <div>
+          <h1>Portal TSP</h1>
+          <div class="subtitle">Documentación & Versionado</div>
         </div>
-      </section>
-    </div>
-  </main>
+      </div>
 
-  <footer>© 2025 — Equipo EXA | Proyecto Áncora</footer>
+      <div style="margin-top:6px; font-size:13px; color:var(--muted);">Roles</div>
+      <div class="role-list" id="roleList"></div>
+
+      <p class="subtitle note">Este portal es <b>estático</b>. Los archivos viven en <code>/docs/</code> y el catálogo en <code>/data/docs-manifest.json</code>.</p>
+    </aside>
+
+    <main>
+      <div class="topbar">
+        <div>
+          <div class="title-xl">Repositorio de documentación TSP</div>
+          <div class="subtitle">Visualiza por rol • Agrupado por documento • Versiones</div>
+        </div>
+        <div class="toolbar">
+          <input id="search" class="search" type="search" placeholder="Buscar por nombre" />
+          <select id="sort">
+            <option value="updatedDesc">Orden: Reciente</option>
+            <option value="updatedAsc">Orden: Antiguo</option>
+            <option value="nameAsc">Orden: Nombre A–Z</option>
+            <option value="nameDesc">Orden: Nombre Z–A</option>
+          </select>
+        </div>
+      </div>
+
+      <section class="list" id="docList"></section>
+      <div class="empty" id="emptyState" hidden>No hay documentos para este rol todavía.</div>
+    </main>
+  </div>
+
+  <!-- Visor modal -->
+  <div class="viewer" id="viewer">
+    <div class="panel">
+      <div class="bar">
+        <div id="viewerTitle" class="viewer-title"></div>
+        <div class="toolbar">
+          <a id="viewerDownload" class="btn secondary" download>Descargar</a>
+          <button class="btn" id="closeViewer">Cerrar</button>
+        </div>
+      </div>
+      <embed id="viewerEmbed" type="application/pdf" />
+    </div>
+  </div>
+
+  <script src="./assets/app.js"></script>
 </body>
 </html>

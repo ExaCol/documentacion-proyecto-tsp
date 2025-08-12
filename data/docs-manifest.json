@@ -1,0 +1,15 @@
+{
+  "roles": ["líder de calidad","líder de soporte","líder de desarrollo","líder de equipo","líder de planeación"],
+  "documents": [
+    {
+      "role": "líder de desarrollo",
+      "name": "bitacoras de tiempo",
+      "version": "1.0",
+      "notes": "",
+      "filename": "BitacoraTiempo.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-11T10:56:00:00",
+      "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/BitacoraTiempo.pdf"
+    }
+  ]
+}
