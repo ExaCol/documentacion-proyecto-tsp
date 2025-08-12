@@ -20,7 +20,13 @@ body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,
 
 aside{background:var(--pastel-2);border-right:1px solid var(--pastel-3);padding:24px 16px;position:sticky;top:0;height:100dvh;overflow:auto}
 .logo{display:flex;align-items:center;gap:12px;margin-bottom:20px}
-.logo-badge{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--pastel-4),var(--pastel-5));box-shadow:var(--shadow)}
+.logo-badge {
+  width: 48px;         /* mismo ancho que el actual */
+  height: 28px;        /* mismo alto que el actual */
+  border-radius: 12px; /* esquinas redondeadas */
+  flex-shrink: 0;      /* que no se deforme */
+}
+
 h1{font-size:20px;margin:0}.subtitle{color:var(--muted);font-size:13px;margin-top:2px}
 .role-list{margin-top:16px;display:grid;gap:8px}
 .role-btn{width:100%;text-align:left;padding:10px 12px;border-radius:12px;border:1px solid var(--pastel-3);background:#fff;color:var(--text-dark);cursor:pointer;transition:box-shadow .2s,transform .02s}
