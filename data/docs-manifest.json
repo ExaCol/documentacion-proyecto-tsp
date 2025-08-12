@@ -32,7 +32,7 @@
       "name": "logs de defectos",
       "version": "1.0",
       "notes": "",
-      "filename": "Log Defectos 01.pdf",
+      "filename": "LogDefectos01.pdf",
       "contentType": "application/pdf",
       "updatedAt": "2025-08-11",
       "url": "./docs/lider-de-calidad/logs-de-defectos/LogDefectos01.pdf"
@@ -116,6 +116,16 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-09",
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignaciones.pdf"
+    },
+    {
+      "role": "líder de soporte",
+      "name": "logs de defectos",
+      "version": "1.0",
+      "notes": "",
+      "filename": "log-defectos.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-soporte/log-de-defectos/log-defectos.pdf"
     }
   ]
 }
