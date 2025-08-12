@@ -136,6 +136,26 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-09",
       "url": "./docs/lider-de-soporte/control-de-versiones.pdf"
+    },
+    {
+      "role": "líder de equipo",
+      "name": "bitacoras de tiempo",
+      "version": "1.0",
+      "notes": "",
+      "filename": "Bitacora_120250812.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/Bitacora_120250812.pdf"
+    },
+    {
+      "role": "líder de equipo",
+      "name": "soporte de realizacion",
+      "version": "1.0",
+      "notes": "",
+      "filename": "soporte-de-realizacion.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-equipo/soporte-de-realizacion.pdf"
     }
   ]
 }
