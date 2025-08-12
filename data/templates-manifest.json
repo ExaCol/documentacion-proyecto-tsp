@@ -25,46 +25,46 @@
     {
       "name": "Plantilla bitacoras de tiempo",
       "category": "bitacoras",
-      "role": "lider de calidad",
+      "role": "todos",
       "description": "",
       "filename": "Plantilla bitacoras de tiempo.doc",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "updatedAt": "2025-08-12",
       "url": "./docs/plantillas/Plantilla bitacoras de tiempo.doc",
-      "tags": ["reuniones", "documentación"]
+      "tags": ["documentación", "desarrollo", "reuniones"]
     },
     {
       "name": "Plantilla control de asignaciones",
-      "category": "",
-      "role": "lider de calidad",
+      "category": "plantilla",
+      "role": "lider de planeación",
       "description": "",
       "filename": "Plantilla control de asignaciones.xlsx",
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "updatedAt": "2025-08-12",
       "url": "./docs/plantillas/Plantilla control de asignaciones.xlsx",
-      "tags": [""]
+      "tags": ["documentación"]
     },
     {
       "name": "Plantilla log defectos",
-      "category": "",
-      "role": "lider de calidad",
+      "category": "bitacoras",
+      "role": "todos",
       "description": "",
       "filename": "Plantilla log defectos.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "updatedAt": "2025-08-12",
       "url": "./docs/plantillas/Plantilla log defectos.docx",
-      "tags": [""]
+      "tags": ["reuniones", "documentación", "desarrollo"]
     },
     {
-      "name": "plantilla script definición de procesos",
-      "category": "",
+      "name": "Plantilla script definición de procesos",
+      "category": "bitacoras",
       "role": "lider de calidad",
       "description": "",
       "filename": "Plantilla script definición de procesos.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "updatedAt": "2025-08-12",
       "url": "./docs/plantillas/Plantilla script definición de procesos.docx",
-      "tags": [""]
+      "tags": ["reuniones", "documentación", "desarrollo"]
     }
   ]
 }
