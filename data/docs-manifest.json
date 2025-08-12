@@ -56,6 +56,36 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-09",
       "url": "./docs/lider-de-calidad/SCRIPT_Definicion_de_procesos.pdf"
+    },
+    {
+      "role": "líder de desarrollo",
+      "name": "bitacoras de tiempo",
+      "version": "1.0",
+      "notes": "",
+      "filename": "BitacoraTiempo.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-12",
+      "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/BitacoraTiempo.pdf"
+    },
+    {
+      "role": "líder de desarrollo",
+      "name": "logs de defectos",
+      "version": "1.0",
+      "notes": "",
+      "filename": "LogDefectos.docx.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-12",
+      "url": "./docs/lider-de-desarrollo/logs-de-defectos/LogDefectos.docx.pdf"
+    },
+    {
+      "role": "líder de equipo",
+      "name": "logs de defectos",
+      "version": "1.0",
+      "notes": "",
+      "filename": "log-defectos-nicolas.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-equipo/logs-de-defectos/log-defectos-nicolas.pdf"
     }
   ]
 }
