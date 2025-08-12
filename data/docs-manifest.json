@@ -1,7 +1,7 @@
-{
+{ 
   "roles": ["líder de calidad","líder de soporte","líder de desarrollo","líder de equipo","líder de planeación"],
   "documents": [
-    {
+    { 
       "role": "líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "1.0",
