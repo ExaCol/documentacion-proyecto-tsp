@@ -86,6 +86,36 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-09",
       "url": "./docs/lider-de-equipo/logs-de-defectos/log-defectos-nicolas.pdf"
+    },
+    {
+      "role": "líder de planeación",
+      "name": "bitacoras de tiempo",
+      "version": "1.0",
+      "notes": "",
+      "filename": "BitacoraTiempo.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/BitacoraTiempo.pdf"
+    },
+    {
+      "role": "líder de planeación",
+      "name": "logs de defectos",
+      "version": "1.0",
+      "notes": "",
+      "filename": "logDefectos.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-planeacion/logs-de-defectos/logDefectos.pdf"
+    },
+    {
+      "role": "líder de planeación",
+      "name": "control asignaciones",
+      "version": "1.0",
+      "notes": "",
+      "filename": "dt_ptl_controlAsignaciones.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-09",
+      "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignaciones.pdf"
     }
   ]
 }
