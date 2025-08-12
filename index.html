@@ -1,64 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Portal TSP – Documentación y Versionado</title>
-  <link rel="stylesheet" href="./assets/styles.css" />
-</head>
-<body>
-  <div class="app">
-    <aside>
-      <div class="logo">
-        <div class="logo-badge" aria-hidden="true"></div>
-        <div>
-          <h1>Portal TSP</h1>
-          <div class="subtitle">Documentación & Versionado</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portal TSP – Documentación y Versionado</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside>
+        <div class="logo">
+          <div class="logo-badge" aria-hidden="true"></div>
+          <div>
+            <h1>Portal TSP</h1>
+            <div class="subtitle">Documentación & Versionado</div>
+          </div>
         </div>
-      </div>
 
-      <div style="margin-top:6px; font-size:13px; color:var(--muted);">Roles</div>
-      <div class="role-list" id="roleList"></div>
-
-      <p class="subtitle note">Este portal es <b>estático</b>. Los archivos viven en <code>/docs/</code> y el catálogo en <code>/data/docs-manifest.json</code>.</p>
-    </aside>
-
-    <main>
-      <div class="topbar">
-        <div>
-          <div class="title-xl">Repositorio de documentación TSP</div>
-          <div class="subtitle">Visualiza por rol • Agrupado por documento • Versiones</div>
+        <div style="margin-top: 6px; font-size: 13px; color: var(--muted)">
+          Roles
         </div>
-        <div class="toolbar">
-          <input id="search" class="search" type="search" placeholder="Buscar por nombre" />
-          <select id="sort">
-            <option value="updatedDesc">Orden: Reciente</option>
-            <option value="updatedAsc">Orden: Antiguo</option>
-            <option value="nameAsc">Orden: Nombre A–Z</option>
-            <option value="nameDesc">Orden: Nombre Z–A</option>
-          </select>
+        <div class="role-list" id="roleList"></div>
+        <div class="role-list" id="extraLinks" style="margin-top: 12px">
+          <a class="role-btn role-link" href="./templates.html">plantillas</a>
         </div>
-      </div>
+      </aside>
 
-      <section class="list" id="docList"></section>
-      <div class="empty" id="emptyState" hidden>No hay documentos para este rol todavía.</div>
-    </main>
-  </div>
-
-  <!-- Visor modal -->
-  <div class="viewer" id="viewer">
-    <div class="panel">
-      <div class="bar">
-        <div id="viewerTitle" class="viewer-title"></div>
-        <div class="toolbar">
-          <a id="viewerDownload" class="btn secondary" download>Descargar</a>
-          <button class="btn" id="closeViewer">Cerrar</button>
+      <main>
+        <div class="topbar">
+          <div>
+            <div class="title-xl">Repositorio de documentación TSP</div>
+            <div class="subtitle">
+              Visualiza por rol • Agrupado por documento • Versiones
+            </div>
+          </div>
+          <div class="toolbar">
+            <input
+              id="search"
+              class="search"
+              type="search"
+              placeholder="Buscar por nombre"
+            />
+            <select id="sort">
+              <option value="updatedDesc">Orden: Reciente</option>
+              <option value="updatedAsc">Orden: Antiguo</option>
+              <option value="nameAsc">Orden: Nombre A–Z</option>
+              <option value="nameDesc">Orden: Nombre Z–A</option>
+            </select>
+          </div>
         </div>
-      </div>
-      <embed id="viewerEmbed" type="application/pdf" />
+
+        <section class="list" id="docList"></section>
+        <div class="empty" id="emptyState" hidden>
+          No hay documentos para este rol todavía.
+        </div>
+      </main>
     </div>
-  </div>
 
-  <script src="./assets/app.js"></script>
-</body>
+    <!-- Visor modal -->
+    <div class="viewer" id="viewer">
+      <div class="panel">
+        <div class="bar">
+          <div id="viewerTitle" class="viewer-title"></div>
+          <div class="toolbar">
+            <a id="viewerDownload" class="btn secondary" download>Descargar</a>
+            <button class="btn" id="closeViewer">Cerrar</button>
+          </div>
+        </div>
+        <embed id="viewerEmbed" type="application/pdf" />
+      </div>
+    </div>
+
+    <script src="./assets/app.js"></script>
+  </body>
 </html>

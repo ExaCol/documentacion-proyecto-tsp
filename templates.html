@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plantillas TSP – Descarga rápida</title>
+  <link rel="stylesheet" href="./assets/templates.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo-badge" aria-hidden="true"></div>
+      <div>
+        <h1>Plantillas TSP</h1>
+        <div class="subtitle">Descarga y usa — sin versionado</div>
+      </div>
+    </div>
+    <div class="filters">
+      <input id="search" class="search" type="search" placeholder="Buscar plantilla… (⌘/Ctrl+K)" />
+      <select id="filterCategory">
+        <option value="">Todas las categorías</option>
+      </select>
+      <select id="filterRole">
+        <option value="">Todos los roles</option>
+        <option>líder de calidad</option>
+        <option>líder de soporte</option>
+        <option>líder de desarrollo</option>
+        <option>líder de equipo</option>
+        <option>líder de planeación</option>
+      </select>
+      <select id="sort">
+        <option value="recent">Orden: Recientes</option>
+        <option value="nameAsc">Orden: Nombre A–Z</option>
+        <option value="nameDesc">Orden: Nombre Z–A</option>
+      </select>
+      <a class="btn secondary" href="./index.html">← Volver al portal</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="grid" class="grid"></section>
+    <div id="emptyState" class="empty" hidden>No hay plantillas que coincidan con el filtro.</div>
+  </main>
+
+  <!-- Visor modal -->
+  <div class="viewer" id="viewer">
+    <div class="panel">
+      <div class="bar">
+        <div id="viewerTitle" class="viewer-title"></div>
+        <div class="toolbar">
+          <a id="viewerDownload" class="btn secondary" download>Descargar</a>
+          <button class="btn" id="closeViewer">Cerrar</button>
+        </div>
+      </div>
+      <embed id="viewerEmbed" type="application/pdf" />
+    </div>
+  </div>
+
+  <script src="./assets/templates.js"></script>
+</body>
+</html>

@@ -60,3 +60,16 @@ summary{list-style:none;cursor:pointer;padding:0}summary::-webkit-details-marker
 .toolbar{display:flex;gap:8px;align-items:center}
 
 @media (max-width:980px){.app{grid-template-columns:1fr}aside{position:static;height:auto}.version-row{grid-template-columns:1fr}}
+
+/* Enlazado estilo role-btn para <a> */
+a.role-btn {
+  display: block;
+  text-decoration: none;
+  color: var(--text-dark);
+}
+a.role-btn:hover {
+  box-shadow: var(--shadow);
+}
+a.role-btn:focus-visible {
+  outline: 2px solid var(--ring);
+}
