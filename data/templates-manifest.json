@@ -65,6 +65,17 @@
       "updatedAt": "2025-08-12",
       "url": "./docs/plantillas/Plantilla-script-definición-de-procesos.docx",
       "tags": ["reuniones", "documentación", "desarrollo"]
+    },
+    {
+      "name": "Plantilla control de versiones",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "control-de-versiones.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "updatedAt": "2025-08-12",
+      "url": "./docs/plantillas/control-de-versiones.xlsx",
+      "tags": ["reuniones", "documentación", "desarrollo"]
     }
   ]
 }
