@@ -12,7 +12,7 @@
       "tags": ["reuniones", "documentación"]
     },
     {
-      "name": "Plantilla de Actas",
+      "name": "Plantilla de Actas de reuniones",
       "category": "actas",
       "role": "lider de calidad",
       "description": "",
@@ -75,7 +75,7 @@
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "updatedAt": "2025-08-14",
       "url": "./docs/plantillas/control-de-versiones.xlsx",
-      "tags": ["reuniones", "documentación", "desarrollo"]
+      "tags": ["documentación"]
     }
   ]
 }
