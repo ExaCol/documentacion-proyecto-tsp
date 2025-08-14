@@ -29,16 +29,6 @@
     },
     {
       "role": "líder de calidad",
-      "name": "logs de defectos",
-      "version": "1.0",
-      "notes": "",
-      "filename": "logdedefectos.pdf",
-      "contentType": "application/pdf",
-      "updatedAt": "2025-08-11",
-      "url": "./docs/lider-de-calidad/logs-de-defectos/logdedefectos.pdf"
-    },
-    {
-      "role": "líder de calidad",
       "name": "acta de iniciacion",
       "version": "1.0",
       "notes": "",
@@ -68,26 +58,6 @@
       "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/BitacoraTiempo.pdf"
     },
     {
-      "role": "líder de desarrollo",
-      "name": "logs de defectos",
-      "version": "1.0",
-      "notes": "",
-      "filename": "LogDefectos.pdf",
-      "contentType": "application/pdf",
-      "updatedAt": "2025-08-12",
-      "url": "./docs/lider-de-desarrollo/logs-de-defectos/LogDefectos.pdf"
-    },
-    {
-      "role": "líder de equipo",
-      "name": "logs de defectos",
-      "version": "1.0",
-      "notes": "",
-      "filename": "logsDefectos.pdf",
-      "contentType": "application/pdf",
-      "updatedAt": "2025-08-12",
-      "url": "./docs/lider-de-equipo/logs-de-defectos/logsDefectos.pdf"
-    },
-    {
       "role": "líder de planeación",
       "name": "bitacoras de tiempo",
       "version": "1.0",
@@ -99,16 +69,6 @@
     },
     {
       "role": "líder de planeación",
-      "name": "logs de defectos",
-      "version": "1.0",
-      "notes": "",
-      "filename": "logDefectos.pdf",
-      "contentType": "application/pdf",
-      "updatedAt": "2025-08-09",
-      "url": "./docs/lider-de-planeacion/logs-de-defectos/logDefectos.pdf"
-    },
-    {
-      "role": "líder de planeación",
       "name": "control asignaciones",
       "version": "1.0",
       "notes": "",
@@ -116,16 +76,6 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-09",
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignaciones.pdf"
-    },
-    {
-      "role": "líder de soporte",
-      "name": "logs de defectos",
-      "version": "1.0",
-      "notes": "",
-      "filename": "log-defectos.pdf",
-      "contentType": "application/pdf",
-      "updatedAt": "2025-08-09",
-      "url": "./docs/lider-de-soporte/log-de-defectos/log-defectos.pdf"
     },
     {
       "role": "líder de soporte",
@@ -246,6 +196,26 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-14",
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.3.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "log de defectos",
+      "version": "1.0",
+      "notes": "Unificacion de los logs de defectos de cada Lider",
+      "filename": "logDefectosV1.0.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-15",
+      "url": "./docs/lider-de-calidad/logs-de-defectos/logDefectosV1.0.pdf"
+    },
+    {
+      "role": "líder de soporte",
+      "name": "control de versiones",
+      "version": "1.4",
+      "notes": "update",
+      "filename": "control-de-versionesV1.4.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-15",
+      "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.4.pdf"
     }
   ]
 }
