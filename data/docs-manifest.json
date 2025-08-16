@@ -224,7 +224,7 @@
       "notes": "Actualizacion del nombre del proyecto",
       "filename": "dt_ptl_controlAsignacionesV1.2.pdf",
       "contentType": "application/pdf",
-      "updatedAt": "2025-08-15",
+      "updatedAt": "2025-08-16",
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignacionesV1.2.pdf"
     },
     {
@@ -234,8 +234,8 @@
       "notes": "cambio en la definición del proyecto",
       "filename": "SCRIPT_Definicion_de_procesosV1.2.pdf",
       "contentType": "application/pdf",
-      "updatedAt": "2025-08-15",
-      "url": "./docs/lider-de-planeacion/SCRIPT_Definicion_de_procesosV1.2.pdf"
+      "updatedAt": "2025-08-16",
+      "url": "./docs/lider-de-calidad/SCRIPT_Definicion_de_procesosV1.2.pdf"
     },
     {
       "role": "líder de calidad",
@@ -244,8 +244,8 @@
       "notes": "cambio en la definición del proyecto",
       "filename": "Acta_Iniciación_8_08_2025V1.2.pdf",
       "contentType": "application/pdf",
-      "updatedAt": "2025-08-15",
-      "url": "./docs/lider-de-planeacion/Acta_Iniciación_8_08_2025V1.2.pdf"
+      "updatedAt": "2025-08-16",
+      "url": "./docs/lider-de-calidad/Acta_Iniciación_8_08_2025V1.2.pdf"
     },
     {
       "role": "líder de calidad",
@@ -254,8 +254,8 @@
       "notes": "cambio en la definición del proyecto",
       "filename": "01_ACTA_0608225V1.2.pdf",
       "contentType": "application/pdf",
-      "updatedAt": "2025-08-15",
-      "url": "./docs/lider-de-planeacion/01_ACTA_0608225V1.2.pdf"
+      "updatedAt": "2025-08-16",
+      "url": "./docs/lider-de-calidad/01_ACTA_0608225V1.2.pdf"
     },
     {
       "role": "líder de calidad",
@@ -264,8 +264,8 @@
       "notes": "Se añadio un nuevo Log",
       "filename": "logDefectosV1.1.pdf",
       "contentType": "application/pdf",
-      "updatedAt": "2025-08-15",
-      "url": "./docs/lider-de-planeacion/log-de-defectos/logDefectosV1.1.pdf"
+      "updatedAt": "2025-08-16",
+      "url": "./docs/lider-de-calidad/log-de-defectos/logDefectosV1.1.pdf"
     },
     {
       "role": "líder de soporte",
@@ -274,7 +274,7 @@
       "notes": "update",
       "filename": "control-de-versionesV1.5.pdf",
       "contentType": "application/pdf",
-      "updatedAt": "2025-08-15",
+      "updatedAt": "2025-08-16",
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.5.pdf"
     }
   ]
