@@ -276,6 +276,37 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-16",
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.5.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "script",
+      "version": "1.3",
+      "notes": "Se cambio del script se arreglo un criterio de entrada y una entrada que es el problema Need Statement",
+      "filename": "SCRIPT_Definicion_de_procesosV1.3.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-16",
+      "url": "./docs/lider-de-calidad/SCRIPT_Definicion_de_procesosV1.3.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "acta de iniciacion",
+      "version": "1.3",
+      "notes": "Correccion de objetivos y metricas",
+      "filename": "1.3_Acta_Iniciación_8_08_2025.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-16",
+      "url": "./docs/lider-de-calidad/actas-de-reuniones/1.3_Acta_Iniciación_8_08_2025.pdf"
+    }
+    ,
+    {
+      "role": "líder de soporte",
+      "name": "control de versiones",
+      "version": "1.6",
+      "notes": "update",
+      "filename": "control-de-versionesV1.6.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-16",
+      "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.6.pdf"
     }
   ]
 }
