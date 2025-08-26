@@ -63,9 +63,32 @@ function groupByName(items) {
     if (!map.has(key)) map.set(key, { name: it.name, role: it.role, items: [] });
     map.get(key).items.push(it);
   }
-  for (const v of map.values()) v.items.sort((a,b) => new Date(b.updatedAt) - new Date(a.updatedAt));
-  return Array.from(map.values()).sort((a,b) => a.name.localeCompare(b.name));
+
+  // Función para convertir "1.2.3" en [1,2,3]
+  function parseVersion(ver) {
+    if (!ver) return [0];
+    return ver.split('.').map(n => parseInt(n, 10));
+  }
+
+  // Ordenar versiones numéricamente (ascendente)
+  for (const v of map.values()) {
+    v.items.sort((a, b) => {
+      const va = parseVersion(a.version);
+      const vb = parseVersion(b.version);
+
+      for (let i = 0; i < Math.max(va.length, vb.length); i++) {
+        const na = va[i] || 0;
+        const nb = vb[i] || 0;
+        if (na !== nb) return na - nb;
+      }
+      return 0;
+    });
+  }
+
+  // Mantener orden alfabético por nombre del documento
+  return Array.from(map.values()).sort((a, b) => a.name.localeCompare(b.name));
 }
+
 
 // --- Filtrar, buscar y ordenar ---
 function computeVisible() {
