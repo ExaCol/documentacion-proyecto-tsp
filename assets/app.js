@@ -11,12 +11,13 @@ const MANIFEST_URL = './data/docs-manifest.json';
 const PHASES = ['iniciación', 'estrategia']; // orden de fases
 
 
-const state = {
-  currentRole: DEFAULT_ROLE,
-  search: '',
-  sort: 'updatedDesc',
-  manifest: { documents: [] } // fallback
-};
+ const state = {
+   currentRole: DEFAULT_ROLE,
+   search: '',
+   sort: 'updatedDesc',
+   phase: '',                 // '' = todas las fases
+   manifest: { documents: [] } // fallback
+ };
 
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => Array.from(document.querySelectorAll(s));
@@ -92,20 +93,32 @@ function groupByName(items) {
 }
 
 
-// --- Filtrar, buscar y ordenar ---
 function computeVisible() {
   if (!state.manifest) return [];
+  const norm = (s) => (s || '').toString().trim().toLowerCase();
+
   let list = (state.manifest.documents || []).filter(d => d.role === state.currentRole);
-  if (state.search) {
-    const q = state.search.toLowerCase();
-    list = list.filter(d => d.name.toLowerCase().includes(q));
+
+  // 🔎 filtro por fase (si hay una seleccionada)
+  if (state.phase) {
+    list = list.filter(d => norm(d.phase) === state.phase);
   }
+
+  // 🔎 búsqueda por nombre
+  if (state.search) {
+    const q = norm(state.search);
+    list = list.filter(d => norm(d.name).includes(q));
+  }
+
+  // órdenes existentes
   if (state.sort === 'updatedDesc') list.sort((a,b) => new Date(b.updatedAt) - new Date(a.updatedAt));
-  if (state.sort === 'updatedAsc') list.sort((a,b) => new Date(a.updatedAt) - new Date(b.updatedAt));
-  if (state.sort === 'nameAsc') list.sort((a,b) => a.name.localeCompare(b.name));
-  if (state.sort === 'nameDesc') list.sort((a,b) => b.name.localeCompare(a.name));
+  if (state.sort === 'updatedAsc')  list.sort((a,b) => new Date(a.updatedAt) - new Date(b.updatedAt));
+  if (state.sort === 'nameAsc')     list.sort((a,b) => a.name.localeCompare(b.name));
+  if (state.sort === 'nameDesc')    list.sort((a,b) => b.name.localeCompare(a.name));
+
   return list;
 }
+
 
 // --- Render listado (sin columna de tamaño) ---
 function renderList() {
@@ -267,16 +280,24 @@ function openViewer(meta) {
   viewer.onclick = (e) => { if (e.target === viewer) $('#closeViewer').click(); };
 }
 
-// --- Búsqueda y orden ---
-function wireUI() {
-  $('#search').oninput = () => { state.search = $('#search').value; renderList(); };
-  $('#sort').onchange = (e) => { state.sort = e.target.value; renderList(); };
-  window.addEventListener('keydown', (e) => {
-    if ((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='k') {
-      e.preventDefault(); $('#search').focus();
-    }
-  });
+ function wireUI() {
+   $('#search').oninput = () => { state.search = $('#search').value; renderList(); };
+   $('#sort').onchange = (e) => { state.sort = e.target.value; renderList(); };
+   // filtro por fase
+   const fp = $('#filterPhase');
+   if (fp) {
+     fp.onchange = (e) => {
+       state.phase = (e.target.value || '').toLowerCase();
+       renderList();
+     };
 }
+   window.addEventListener('keydown', (e) => {
+     if ((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='k') {
+       e.preventDefault(); $('#search').focus();
+     }
+   });
+ }
+
 
 async function refresh() {
   renderList();

@@ -10,25 +10,19 @@
     <div class="app">
       <aside>
         <div class="logo">
-          <img
-            src="./assets/img/logo_black.png"
-            alt="Logo TSP"
-            class="logo-badge"
-          />
+          <img src="./assets/img/logo_black.png" alt="Logo TSP" class="logo-badge" />
           <div>
             <h1>Portal TSP</h1>
             <div class="subtitle">Documentación & Versionado</div>
           </div>
         </div>
-        <div style="margin-top: 6px; font-size: 13px; color: var(--muted)">
-          Roles
-        </div>
+
+        <div style="margin-top: 6px; font-size: 13px; color: var(--muted)">Roles</div>
         <div class="role-list" id="roleList" style="margin-top: 12px"></div>
-        <div style="margin-top: 6px; font-size: 13px; color: var(--muted)">
-          Recursos
-        </div>
+
+        <div style="margin-top: 6px; font-size: 13px; color: var(--muted)">Recursos</div>
         <div class="role-list" id="extraLinks" style="margin-top: 12px">
-          <a class="role-btn role-link" href="./templates.html" style="font-size: 14px;">plantillas</a>
+          <a class="role-btn role-link" href="./templates.html" style="font-size: 14px">plantillas</a>
         </div>
       </aside>
 
@@ -36,17 +30,17 @@
         <div class="topbar">
           <div>
             <div class="title-xl">Repositorio de documentación TSP</div>
-            <div class="subtitle">
-              Visualiza por rol • Agrupado por documento • Versiones
-            </div>
+            <div class="subtitle">Visualiza por rol • Agrupado por documento • Versiones</div>
           </div>
+
+          <!-- ÚNICA toolbar de filtros/orden -->
           <div class="toolbar">
-            <input
-              id="search"
-              class="search"
-              type="search"
-              placeholder="Buscar por nombre"
-            />
+            <input id="search" class="search" type="search" placeholder="Buscar por nombre" />
+            <select id="filterPhase" title="Filtrar por fase">
+              <option value="">Todas las fases</option>
+              <option value="iniciación">Iniciación</option>
+              <option value="estrategia">Estrategia</option>
+            </select>
             <select id="sort">
               <option value="updatedDesc">Orden: Reciente</option>
               <option value="updatedAsc">Orden: Antiguo</option>
@@ -57,9 +51,7 @@
         </div>
 
         <section class="list" id="docList"></section>
-        <div class="empty" id="emptyState" hidden>
-          No hay documentos para este rol todavía.
-        </div>
+        <div class="empty" id="emptyState" hidden>No hay documentos para este rol todavía.</div>
       </main>
     </div>
 
