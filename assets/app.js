@@ -8,6 +8,8 @@ const ROLES = [
 ];
 const DEFAULT_ROLE = 'líder de soporte'; // tu rol por defecto
 const MANIFEST_URL = './data/docs-manifest.json';
+const PHASES = ['iniciación', 'estrategia']; // orden de fases
+
 
 const state = {
   currentRole: DEFAULT_ROLE,
@@ -109,74 +111,107 @@ function computeVisible() {
 function renderList() {
   const container = $('#docList');
   container.innerHTML = '';
+
   const list = computeVisible();
   $('#emptyState').hidden = list.length > 0;
-  const groups = groupByName(list);
 
-  for (const group of groups) {
-    const details = document.createElement('details');
-    details.className = 'doc';
-    const sum = document.createElement('summary');
+  // Orden de fases (usa global PHASES si la declaraste arriba)
+  const PHASES_ORDER = (typeof PHASES !== 'undefined' && Array.isArray(PHASES))
+    ? PHASES
+    : ['iniciación', 'estrategia'];
 
-    const chips = group.items.map(it => `
-      <span class="chip"
-            data-url="${it.url}"
-            data-mime="${it.contentType}"
-            data-name="${it.name}"
-            data-version="${it.version}"
-            data-filename="${it.filename}">v${it.version}</span>`).join('');
-
-    sum.innerHTML = `
-      <div class="doc-item">
-        <div class="doc-header">
-          <div>
-            <div class="doc-title">${group.name}</div>
-            <div class="doc-meta">${group.role} • ${group.items.length} versión(es)</div>
-          </div>
-          <div class="chips">${chips}</div>
-        </div>
-      </div>`;
-    details.appendChild(sum);
-
-    const wrap = document.createElement('div');
-    wrap.className = 'versions';
-
-    // Nota: dejamos una columna vacía para no tocar tu CSS (que tiene 5 columnas)
-    wrap.innerHTML = `
-      <div class="version-row" style="font-weight:700;">
-        <div>Notas</div>
-        <div>Versión</div>
-        <div>Actualizado</div>
-        <div></div>        <!-- col vacía en lugar de Tamaño -->
-        <div class="ops">Acciones</div>
-      </div>`;
-
-    for (const it of group.items) {
-      const row = document.createElement('div');
-      row.className = 'version-row';
-      row.innerHTML = `
-        <div>${it.notes || '<span class="subtitle">(sin notas)</span>'}</div>
-        <div><span class="kbd">v${it.version}</span></div>
-        <div>${fmtDate(it.updatedAt)}</div>
-        <div></div> <!-- col vacía -->
-        <div class="ops">
-          <button class="btn secondary"
-                  data-action="preview"
-                  data-url="${it.url}"
-                  data-mime="${it.contentType}"
-                  data-name="${it.name}"
-                  data-version="${it.version}"
-                  data-filename="${it.filename}">Vista</button>
-          <a class="btn" href="${it.url}" download>Descargar</a>
-        </div>`;
-      wrap.appendChild(row);
-    }
-
-    details.appendChild(wrap);
-    container.appendChild(details);
+  // 1) Agrupar por fase
+  const norm = (p) => (p || '').toString().trim().toLowerCase() || 'otras';
+  const phaseGroups = new Map();
+  for (const it of list) {
+    const p = norm(it.phase);
+    if (!phaseGroups.has(p)) phaseGroups.set(p, []);
+    phaseGroups.get(p).push(it);
   }
 
-  // Delegación de eventos para chips/botones
+  // 2) Ordenar fases: definidas + el resto (si apareciera)
+  const others = Array.from(phaseGroups.keys()).filter(p => !PHASES_ORDER.includes(p));
+  const orderedPhases = [...PHASES_ORDER, ...others];
+
+  for (const phase of orderedPhases) {
+    const items = phaseGroups.get(phase);
+    if (!items || items.length === 0) continue;
+
+    // Encabezado de la fase
+    const phaseHeader = document.createElement('h3');
+    phaseHeader.textContent = `Fase: ${phase}`;
+    phaseHeader.className = 'subtitle';
+    phaseHeader.style.margin = '14px 0 8px';
+    container.appendChild(phaseHeader);
+
+    // 3) Dentro de la fase, agrupar por documento (usa tu groupByName)
+    const groups = groupByName(items);
+
+    for (const group of groups) {
+      const details = document.createElement('details');
+      details.className = 'doc';
+      const sum = document.createElement('summary');
+
+      const chips = group.items.map(it => `
+        <span class="chip"
+              data-url="${it.url}"
+              data-mime="${it.contentType}"
+              data-name="${it.name}"
+              data-version="${it.version}"
+              data-filename="${it.filename}">v${it.version}</span>`).join('');
+
+      sum.innerHTML = `
+        <div class="doc-item">
+          <div class="doc-header">
+            <div>
+              <div class="doc-title">${group.name}</div>
+              <div class="doc-meta">${group.role} • ${group.items.length} versión(es)</div>
+            </div>
+            <div class="chips">${chips}</div>
+          </div>
+        </div>`;
+      details.appendChild(sum);
+
+      const wrap = document.createElement('div');
+      wrap.className = 'versions';
+
+      // Encabezado sin "Notas" (columna vacía para respetar tu grid de 5)
+      wrap.innerHTML = `
+        <div class="version-row" style="font-weight:700;">
+          <div></div>        <!-- col vacía en lugar de Notas -->
+          <div>Versión</div>
+          <div>Actualizado</div>
+          <div></div>        <!-- col vacía en lugar de Tamaño -->
+          <div class="ops">Acciones</div>
+        </div>`;
+
+      for (const it of group.items) {
+        const row = document.createElement('div');
+        row.className = 'version-row';
+        row.innerHTML = `
+          <div></div> <!-- col vacía -->
+          <div><span class="kbd">v${it.version}</span></div>
+          <div>${fmtDate(it.updatedAt)}</div>
+          <div></div> <!-- col vacía -->
+          <div class="ops">
+            <button class="btn secondary"
+                    data-action="preview"
+                    data-url="${it.url}"
+                    data-mime="${it.contentType}"
+                    data-name="${it.name}"
+                    data-version="${it.version}"
+                    data-filename="${it.filename}">Vista</button>
+            <a class="btn" href="${it.url}" download>Descargar</a>
+          </div>`;
+        wrap.appendChild(row);
+      }
+
+      details.appendChild(wrap);
+      container.appendChild(details);
+    }
+  }
+
+  // Delegación de eventos (igual que tenías)
   container.onclick = (e) => {
     const chip = e.target.closest('.chip');
     if (chip) {
@@ -202,6 +237,7 @@ function renderList() {
     }
   };
 }
+
 
 // --- Visor ---
 function openViewer(meta) {
