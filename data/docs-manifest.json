@@ -22,8 +22,6 @@
       "role": "líder de calidad",
       "name": "bitacoras de tiempo",
       "version": "1.0",
-      "phase": "iniciación",
-      "notes": "",
       "filename": "Bitacora01_08082025.pdf",
       "contentType": "application/pdf",
       "updatedAt": "2025-08-09",
@@ -99,7 +97,6 @@
       "role": "líder de equipo",
       "name": "bitacoras de tiempo",
       "version": "1.0",
-      "phase": "iniciación",
       "notes": "",
       "filename": "Bitacora_120250812.pdf",
       "contentType": "application/pdf",
@@ -347,6 +344,108 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-16",
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.6.pdf"
+    },
+    {
+      "role": "líder de desarrollo",
+      "name": "bitacoras de tiempo",
+      "version": "2.0",
+      "phase": "estrategia",
+      "filename": "2.0_Bitacora_Tiempo.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-desarrollo/2.0_Bitacora_Tiempo.pdf"
+    },
+    {
+      "role": "líder de desarrollo",
+      "name": "estrategia",
+      "version": "1.0",
+      "phase": "estrategia",
+      "filename": "1.0_Definicion_de_estrategia.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-desarrollo/estrategia/1.0_Definicion_de_estrategia.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "script",
+      "version": "1.0",
+      "phase": "estrategia",
+      "notes": "create",
+      "filename": "1.0_SCRIPT_Fase_Estrategia.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-calidad/estrategia/1.0_SCRIPT_Fase_Estrategia.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "plan de riesgos",
+      "version": "1.0",
+      "phase": "estrategia",
+      "notes": "create",
+      "filename": "1.0_Plan_de_riesgos.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-calidad/estrategia/1.0_Plan_de_riesgos.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "configuracion de cambios",
+      "version": "1.0",
+      "phase": "estrategia",
+      "notes": "create",
+      "filename": "1.0_Plan_Admin_Config_Cambios.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-calidad/estrategia/1.0_Plan_Admin_Config_Cambios.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "bitacoras de tiempo",
+      "version": "2.0",
+      "filename": "Bitacora02_26082025.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora01_08082025.pdf"
+    },
+    {
+      "role": "líder de calidad",
+      "name": "actas de reuniones",
+      "version": "1.0",
+      "phase": "estrategia",
+      "filename": "1.0_Acta_200825.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-calidad/actas-de-reuniones/1.0_Acta_200825.pdf"
+    },
+    {
+      "role": "líder de equipo",
+      "name": "bitacoras de tiempo",
+      "version": "2.0",
+      "filename": "1.0_PLANTILLA_NICOLAS_26_082025.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-equipo/estrategia/1.0_PLANTILLA_NICOLAS_26_082025.pdf"
+    },
+    {
+      "role": "líder de equipo",
+      "name": "soporte de realizacion",
+      "version": "1.0",
+      "phase": "estrategia",
+      "filename": "1.0_SOPORTE-DE-REALIZACIÓN_26_082025.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-equipo/estrategia/1.0_SOPORTE-DE-REALIZACIÓN_26_082025.pdf"
+    },
+    {
+      "role": "líder de equipo",
+      "name": "informe",
+      "version": "1.0",
+      "phase": "estrategia",
+      "filename": "1.0INFORME_26_082025.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-equipo/estrategia/1.0INFORME_26_082025.pdf"
     }
+    
   ]
 }

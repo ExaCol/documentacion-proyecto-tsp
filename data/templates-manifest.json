@@ -76,6 +76,61 @@
       "updatedAt": "2025-08-14",
       "url": "./docs/plantillas/control-de-versiones.xlsx",
       "tags": ["documentación"]
+    },
+    {
+      "name": "Plantilla definicion de estrategia",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-definición-de-estrategia.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-definición-de-estrategia.docx",
+      "tags": ["documentación", "estrategia"]
+    },
+    {
+      "name": "Plantilla detalles de caso de uso",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-detalles-de-caso-de-uso.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-detalles-de-caso-de-uso.docx",
+      "tags": ["documentación", "estrategia"]
+    },
+    {
+      "name": "Plantilla escenarios de calidad",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-escenarios-de-calidad.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-escenarios-de-calidad.docx",
+      "tags": ["documentación", "estrategia"]
+    },
+    {
+      "name": "Plantilla plan de administracion de configuracion",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-plan-de-administracion-de-configuracion.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-plan-de-administracion-de-configuracion.docx",
+      "tags": ["documentación", "estrategia"]
+    },
+    {
+      "name": "Plantilla plan de riesgos",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-plan-de-riesgos.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-plan-de-riesgos.docx",
+      "tags": ["documentación", "estrategia"]
     }
   ]
 }
