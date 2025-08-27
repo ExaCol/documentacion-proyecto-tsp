@@ -427,7 +427,7 @@
       "filename": "BitacoraTiempoSem2_V1.0.pdf",
       "contentType": "application/pdf",
       "updatedAt": "2025-08-27",
-      "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/Bitacora_120250812.pdf"
+      "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/Bitacora_120250812.pdf"
     },
     {
       "role": "líder de planeación",
@@ -437,7 +437,7 @@
       "filename": "dt_ptl_controlAsignaciones v2.0.pdf",
       "contentType": "application/pdf",
       "updatedAt": "2025-08-27",
-      "url": "./docs/lider-de-equipo/estrategia/dt_ptl_controlAsignaciones v2.0.pdf"
+      "url": "./docs/lider-de-planeacion/estrategia/dt_ptl_controlAsignaciones v2.0.pdf"
     },
     {
       "role": "líder de soporte",
@@ -446,7 +446,7 @@
       "filename": "control-de-versionesV1.7.pdf",
       "contentType": "application/pdf",
       "updatedAt": "2025-08-27",
-      "url": "./docs/lider-de-equipo/control-de-versiones/control-de-versionesV1.7.pdf"
+      "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.7.pdf"
     }
   ]
 }
