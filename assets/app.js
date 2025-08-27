@@ -99,10 +99,13 @@ function computeVisible() {
 
   let list = (state.manifest.documents || []).filter(d => d.role === state.currentRole);
 
-  // 🔎 filtro por fase (si hay una seleccionada)
   if (state.phase) {
-    list = list.filter(d => norm(d.phase) === state.phase);
-  }
+  list = list.filter(d => {
+    const p = norm(d.phase) || 'otras'; // si no tiene fase -> "otras"
+    return p === state.phase;
+  });
+}
+
 
   // 🔎 búsqueda por nombre
   if (state.search) {
