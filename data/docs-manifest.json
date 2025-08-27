@@ -187,7 +187,6 @@
       "role": "líder de soporte",
       "name": "bitacoras de tiempo",
       "version": "1.1",
-      "phase": "iniciación",
       "notes": "Se ajustaron las horas para que concidieran con el tiempo real",
       "filename": "bitacoras-de-tiempoV1.1.pdf",
       "contentType": "application/pdf",
@@ -436,7 +435,25 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-08-27",
       "url": "./docs/lider-de-equipo/estrategia/1.0INFORME_26_082025.pdf"
+    },
+    {
+      "role": "líder de planeación",
+      "name": "bitacoras de tiempo",
+      "version": "1.0",
+      "filename": "BitacoraTiempoSem2_V1.0.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/Bitacora_120250812.pdf"
+    },
+    {
+      "role": "líder de planeación",
+      "name": "control asignaciones",
+      "version": "2.0",
+      "phase": "estrategia",
+      "filename": "dt_ptl_controlAsignaciones v2.0.pdf",
+      "contentType": "application/pdf",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/lider-de-equipo/estrategia/dt_ptl_controlAsignaciones v2.0.pdf"
     }
-    
   ]
 }

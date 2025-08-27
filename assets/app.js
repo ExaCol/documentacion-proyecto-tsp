@@ -6,7 +6,7 @@ const ROLES = [
   'líder de equipo',
   'líder de planeación',
 ];
-const DEFAULT_ROLE = 'líder de soporte'; // tu rol por defecto
+const DEFAULT_ROLE = 'líder de calidad'; // tu rol por defecto
 const MANIFEST_URL = './data/docs-manifest.json';
 const PHASES = ['iniciación', 'estrategia', 'requerimientos']; // orden de fases
 
