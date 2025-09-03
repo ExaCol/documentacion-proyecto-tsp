@@ -443,17 +443,6 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.7.pdf"
     },
     {
-      "role": "líder de calidad",
-      "name": "plan de administración de cambios",
-      "version": "1.1",
-      "phase": "estrategia",
-      "notes": "se enfatizo que el objetivo esta orientado al cambio, se corrigio la metodologia del proyecto y se especifico que el maestro de documento es utilizado para el seguimiento del plan de administracion y configuracion",
-      "filename": "1.1_Plan_Admin_Config_Cambios.pdf",
-      "contentType": "application/pdf",
-      "updatedAt": "2025-08-27",
-      "url": "./docs/lider-de-calidad/estrategia/1.1_Plan_Admin_Config_Cambios.pdf"
-    },
-    {
       "role": "líder de soporte",
       "name": "control de versiones",
       "version": "1.8",
@@ -526,17 +515,6 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-09-03",
       "url": "./docs/lider-de-calidad/requerimientos/1.0_DetalleCasosUso.pdf"
-    },
-    {
-      "role": "líder de calidad",
-      "name": "lista de chequeo",
-      "version": "1.0",
-      "phase": "requerimientos",
-      "notes": "create",
-      "filename": "Lista-de-chequeo.pdf",
-      "contentType": "application/pdf",
-      "updatedAt": "2025-09-03",
-      "url": "./docs/lider-de-calidad/requerimientos/Lista-de-chequeo.pdf"
     },
     {
       "role": "líder de calidad",
