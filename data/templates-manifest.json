@@ -131,6 +131,50 @@
       "updatedAt": "2025-08-27",
       "url": "./docs/plantillas/Plantilla-plan-de-riesgos.docx",
       "tags": ["documentación", "estrategia"]
+    },
+    {
+      "name": "Plantilla Especificación de requerimientos (SRS)",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-Especificación-de-requerimientos(SRS).docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-Especificación-de-requerimientos(SRS).docx",
+      "tags": ["documentación", "requerimientos"]
+    },
+    {
+      "name": "Plantilla lista de chequeo",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-lista-de-chequeo.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-lista-de-chequeo.xlsx",
+      "tags": ["documentación", "requerimientos"]
+    },
+    {
+      "name": "Plantilla plan de administración y gestión de requerimientos",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-plan-de-administración-y-gestion-de-requerimientos.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-plan-de-administración-y-gestion-de-requerimientos.docx",
+      "tags": ["documentación", "requerimientos"]
+    },
+    {
+      "name": "Plantilla WBS",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-WBS.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-WBS.xlsx",
+      "tags": ["documentación", "requerimientos"]
     }
   ]
 }
