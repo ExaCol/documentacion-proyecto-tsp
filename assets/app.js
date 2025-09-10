@@ -8,7 +8,7 @@ const ROLES = [
 ];
 const DEFAULT_ROLE = 'líder de calidad'; // tu rol por defecto
 const MANIFEST_URL = './data/docs-manifest.json';
-const PHASES = ['iniciación', 'estrategia', 'requerimientos']; // orden de fases
+const PHASES = ['iniciación', 'estrategia', 'requerimientos', 'planeación']; // orden de fases
 
 
  const state = {
@@ -134,7 +134,7 @@ function renderList() {
   // Orden de fases (usa global PHASES si la declaraste arriba)
   const PHASES_ORDER = (typeof PHASES !== 'undefined' && Array.isArray(PHASES))
     ? PHASES
-    : ['iniciación', 'estrategia', 'requerimientos'];
+    : ['iniciación', 'estrategia', 'requerimientos', 'planeación'];
 
   // 1) Agrupar por fase
   const norm = (p) => (p || '').toString().trim().toLowerCase() || 'otras';

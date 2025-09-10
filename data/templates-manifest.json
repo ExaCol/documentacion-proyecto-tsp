@@ -175,6 +175,28 @@
       "updatedAt": "2025-08-27",
       "url": "./docs/plantillas/Plantilla-WBS.xlsx",
       "tags": ["documentación", "requerimientos"]
+    },
+    {
+      "name": "Plantilla EDT",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-EDT.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-EDT.xlsx",
+      "tags": ["documentación", "planeación"]
+    },
+    {
+      "name": "Plantilla especificación de diseño de software",
+      "category": "plantillas",
+      "role": "lider de calidad",
+      "description": "",
+      "filename": "Plantilla-especificación-de-diseño-de-software.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "updatedAt": "2025-08-27",
+      "url": "./docs/plantillas/Plantilla-especificación-de-diseño-de-software.docx",
+      "tags": ["documentación", "diseño"]
     }
   ]
 }
