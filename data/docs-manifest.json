@@ -1,14 +1,15 @@
 {
   "roles": [
-    "líder de calidad",
-    "líder de soporte",
-    "líder de desarrollo",
-    "líder de equipo",
-    "líder de planeación"
+    "Líder de calidad",
+    "Líder de soporte",
+    "Líder de desarrollo",
+    "Líder de equipo",
+    "Líder de planeación",
+    "Ciclo-II"
   ],
   "documents": [
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "actas de reuniones",
       "version": "1.0",
       "phase": "iniciación",
@@ -19,7 +20,7 @@
       "url": "./docs/lider-de-calidad/actas-de-reuniones/01_ACTA_0608225.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "bitacoras de tiempo",
       "version": "1.0",
       "filename": "Bitacora01_08082025.pdf",
@@ -28,7 +29,7 @@
       "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora01_08082025.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "acta de iniciacion",
       "version": "1.0",
       "phase": "iniciación",
@@ -39,7 +40,7 @@
       "url": "./docs/lider-de-calidad/Acta Iniciación 8_08_2025.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "script",
       "version": "1.0",
       "phase": "iniciación",
@@ -50,7 +51,7 @@
       "url": "./docs/lider-de-calidad/SCRIPT_Definicion_de_procesos.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "1.0",
       "filename": "BitacoraTiempo.pdf",
@@ -59,7 +60,7 @@
       "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/BitacoraTiempo.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "bitacoras de tiempo",
       "version": "1.0",
       "filename": "BitacoraTiempo.pdf",
@@ -68,7 +69,7 @@
       "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/BitacoraTiempo.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "control asignaciones",
       "version": "1.0",
       "notes": "",
@@ -78,7 +79,7 @@
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignaciones.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.0",
       "filename": "control-de-versiones.pdf",
@@ -87,7 +88,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versiones.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "bitacoras de tiempo",
       "version": "1.0",
       "filename": "Bitacora_120250812.pdf",
@@ -96,7 +97,7 @@
       "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/Bitacora_120250812.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "soporte de realizacion",
       "version": "1.0",
       "phase": "iniciación",
@@ -107,7 +108,7 @@
       "url": "./docs/lider-de-equipo/soporte-de-realizacion.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "bitacoras de tiempo",
       "version": "1.0",
       "filename": "bitacoras-de-tiempo.pdf",
@@ -116,7 +117,7 @@
       "url": "./docs/lider-de-soporte/bitacora-de-tiempo/bitacoras-de-tiempo.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "1.1",
       "notes": "Ajuste en la bitacora de tiempo para que corresponda con los demas documentos",
@@ -126,7 +127,7 @@
       "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/BitacoraTiempoV1.1.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.1",
       "filename": "control-de-versionesV1.1.pdf",
@@ -135,7 +136,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.1.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "script",
       "version": "1.1",
       "phase": "iniciación",
@@ -146,7 +147,7 @@
       "url": "./docs/lider-de-calidad/SCRIPT_Definicion_de_procesosV1.1.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "acta de iniciacion",
       "version": "1.1",
       "phase": "iniciación",
@@ -157,7 +158,7 @@
       "url": "./docs/lider-de-calidad/actas-de-reuniones/1.1_Acta_Iniciación_8_08_2025.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.2",
       "filename": "control-de-versionesV1.2.pdf",
@@ -166,7 +167,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.2.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "control asignaciones",
       "version": "1.1",
       "notes": "Se dividieron las tareas grupales a tareas individuales",
@@ -176,7 +177,7 @@
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignacionesV1.1.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "bitacoras de tiempo",
       "version": "1.1",
       "notes": "Se ajustaron las horas para que concidieran con el tiempo real",
@@ -186,7 +187,7 @@
       "url": "./docs/lider-de-soporte/bitacora-de-tiempo/bitacoras-de-tiempoV1.1.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.3",
       "filename": "control-de-versionesV1.3.pdf",
@@ -195,7 +196,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.3.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "log de defectos",
       "version": "1.0",
       "notes": "Unificacion de los logs de defectos de cada Lider",
@@ -205,7 +206,7 @@
       "url": "./docs/lider-de-calidad/logs-de-defectos/logDefectosV1.0.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.4",
       "filename": "control-de-versionesV1.4.pdf",
@@ -214,7 +215,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.4.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "control asignaciones",
       "version": "1.2",
       "notes": "Actualizacion del nombre del proyecto",
@@ -224,7 +225,7 @@
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignacionesV1.2.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "script",
       "version": "1.2",
       "phase": "iniciación",
@@ -235,7 +236,7 @@
       "url": "./docs/lider-de-calidad/SCRIPT_Definicion_de_procesosV1.2.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "acta de iniciacion",
       "version": "1.2",
       "phase": "iniciación",
@@ -246,7 +247,7 @@
       "url": "./docs/lider-de-calidad/Acta_Iniciación_8_08_2025V.1.2.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "actas de reuniones",
       "version": "1.2",
       "phase": "iniciación",
@@ -257,7 +258,7 @@
       "url": "./docs/lider-de-calidad/actas-de-reuniones/01_ACTA_0608225V1.2.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "log de defectos",
       "version": "1.1",
       "notes": "Se añadio un nuevo Log",
@@ -267,7 +268,7 @@
       "url": "./docs/lider-de-calidad/logs-de-defectos/logDefectosV1.1.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.5",
       "filename": "control-de-versionesV1.5.pdf",
@@ -276,7 +277,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.5.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "script",
       "version": "1.3",
       "phase": "iniciación",
@@ -287,7 +288,7 @@
       "url": "./docs/lider-de-calidad/SCRIPT_Definicion_de_procesosV1.3.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "acta de iniciacion",
       "version": "1.3",
       "phase": "iniciación",
@@ -298,7 +299,7 @@
       "url": "./docs/lider-de-calidad/actas-de-reuniones/1.3_Acta_Iniciación_8_08_2025.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.6",
       "filename": "control-de-versionesV1.6.pdf",
@@ -307,7 +308,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.6.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.6",
       "filename": "control-de-versionesV1.6.pdf",
@@ -316,7 +317,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.6.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "2.0",
       "filename": "2.0_Bitacora_Tiempo.pdf",
@@ -325,7 +326,7 @@
       "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/2.0_Bitacora_Tiempo.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "estrategia",
       "version": "1.0",
       "phase": "estrategia",
@@ -335,7 +336,7 @@
       "url": "./docs/lider-de-desarrollo/estrategia/1.0_Definicion_de_estrategia.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "script",
       "version": "1.0",
       "phase": "estrategia",
@@ -346,7 +347,7 @@
       "url": "./docs/lider-de-calidad/estrategia/1.0_SCRIPT_Fase_Estrategia.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "plan de riesgos",
       "version": "1.0",
       "phase": "estrategia",
@@ -357,7 +358,7 @@
       "url": "./docs/lider-de-calidad/estrategia/1.0_Plan_de_riesgos.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "configuracion de cambios",
       "version": "1.0",
       "phase": "estrategia",
@@ -368,7 +369,7 @@
       "url": "./docs/lider-de-calidad/estrategia/1.0_Plan_Admin_Config_Cambios.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "bitacoras de tiempo",
       "version": "2.0",
       "filename": "Bitacora02_26082025.pdf",
@@ -377,7 +378,7 @@
       "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora01_08082025.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "actas de reuniones",
       "version": "1.0",
       "phase": "estrategia",
@@ -387,7 +388,7 @@
       "url": "./docs/lider-de-calidad/actas-de-reuniones/1.0_Acta_200825.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "bitacoras de tiempo",
       "version": "2.0",
       "filename": "1.0_PLANTILLA_NICOLAS_26_082025.pdf",
@@ -396,7 +397,7 @@
       "url": "./docs/lider-de-equipo/estrategia/1.0_PLANTILLA_NICOLAS_26_082025.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "soporte de realizacion",
       "version": "1.0",
       "phase": "estrategia",
@@ -406,7 +407,7 @@
       "url": "./docs/lider-de-equipo/estrategia/1.0_SOPORTE-DE-REALIZACIÓN_26_082025.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "informe",
       "version": "1.0",
       "phase": "estrategia",
@@ -416,7 +417,7 @@
       "url": "./docs/lider-de-equipo/estrategia/1.0INFORME_26_082025.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "bitacoras de tiempo",
       "version": "1.1",
       "filename": "BitacoraTiempoSem2_V1.0.pdf",
@@ -425,7 +426,7 @@
       "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/BitacoraTiempoSem2_V1.0.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "control asignaciones",
       "version": "2.0",
       "filename": "dt_ptl_controlAsignaciones v2.0.pdf",
@@ -434,7 +435,7 @@
       "url": "./docs/lider-de-planeacion/estrategia/dt_ptl_controlAsignaciones v2.0.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.7",
       "filename": "control-de-versionesV1.7.pdf",
@@ -443,7 +444,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.7.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.8",
       "notes": "update",
@@ -453,7 +454,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.8.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "log de defectos",
       "version": "1.3",
       "notes": "update",
@@ -463,7 +464,7 @@
       "url": "./docs/lider-de-calidad/logs-de-defectos/logDefectos_v.1.3.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "actas de reuniones",
       "version": "1.0",
       "phase": "requerimientos",
@@ -474,7 +475,7 @@
       "url": "./docs/lider-de-calidad/actas-de-reuniones/1.0_Acta_020925.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "bitacoras de tiempo",
       "version": "3.0",
       "notes": "update",
@@ -484,7 +485,7 @@
       "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora03_30082025.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "script",
       "version": "1.0",
       "phase": "requerimientos",
@@ -495,7 +496,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/1.0_SCRIPT_Definicion_de_requerimientos.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "plan de administración y gestión de requerimientos",
       "version": "1.0",
       "phase": "requerimientos",
@@ -506,7 +507,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/Plan-de-administración-y-gestión-de-requerimientos.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "detalle de casos de uso",
       "version": "1.0",
       "phase": "requerimientos",
@@ -517,7 +518,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/1.0_DetalleCasosUso.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "Especificación de requerimientos (SRS)",
       "version": "1.0",
       "phase": "requerimientos",
@@ -528,7 +529,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/Especificación-de-requerimientos(SRS).pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "Escenarios de calidad",
       "version": "1.0",
       "phase": "requerimientos",
@@ -539,7 +540,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/1.0_EscenariosCalidad.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "3.0",
       "notes": "create",
@@ -549,7 +550,7 @@
       "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora01_08082025.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "3.0",
       "notes": "create",
@@ -559,7 +560,7 @@
       "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora01_08082025.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "Soporte de realización",
       "version": "1.0",
       "phase": "requerimientos",
@@ -570,7 +571,7 @@
       "url": "./docs/lider-de-equipo/requerimientos/Soporte-de-realizacion.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "bitacoras de tiempo",
       "version": "3.0",
       "notes": "create",
@@ -580,7 +581,7 @@
       "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/1.0_bitacora_27_082025.doc.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "control asignaciones",
       "version": "3.0",
       "notes": "create",
@@ -590,7 +591,7 @@
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignacionesV3.0.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "bitacoras de tiempo",
       "version": "1.2",
       "notes": "create",
@@ -600,7 +601,7 @@
       "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/BitacoraTiempoSem3_V1.0.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "1.9",
       "notes": "update",
@@ -610,7 +611,7 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV1.9.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "bitacoras de tiempo",
       "version": "1.2",
       "notes": "update",
@@ -620,7 +621,7 @@
       "url": "./docs/lider-de-soporte/bitacora-de-tiempo/bitacoras-de-tiempoV1.2.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "bitacoras de tiempo",
       "version": "1.3",
       "notes": "update",
@@ -630,7 +631,7 @@
       "url": "./docs/lider-de-soporte/bitacora-de-tiempo/bitacoras-de-tiempoV1.3.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "plan de administración y gestión de requerimientos",
       "version": "1.1",
       "phase": "requerimientos",
@@ -641,7 +642,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/plan-de-administración-y-gestión-de-requerimientosV1.1.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "",
       "version": "1.1",
       "phase": "requerimientos",
@@ -652,7 +653,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/plan-de-administración-y-gestión-de-requerimientosV1.1.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "Lista de chequeo",
       "version": "1.0",
       "phase": "requerimientos",
@@ -663,7 +664,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/Lista-de-chequeoV1.0.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "Plan de aseguramiento de calidad basado en defectos",
       "version": "1.0",
       "phase": "planeacion",
@@ -674,7 +675,7 @@
       "url": "./docs/lider-de-calidad/planeacion/plan-de-aseguramiento-de-calidad-basado-en-defectos.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "bitacoras de tiempo",
       "version": "4.0",
       "notes": "update",
@@ -684,7 +685,7 @@
       "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora04_06092025.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "4.0",
       "notes": "update",
@@ -694,7 +695,7 @@
       "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/4.0_Bitacora_Tiempo.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "5.0",
       "notes": "update",
@@ -704,7 +705,7 @@
       "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/5.0_Bitacora_Tiempo.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "bitacoras de tiempo",
       "version": "4.0",
       "notes": "update",
@@ -714,7 +715,7 @@
       "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/BitacoraTiempoSem4_V1.0.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "bitacoras de tiempo",
       "version": "5.0",
       "notes": "update",
@@ -724,7 +725,7 @@
       "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/BitacoraTiempoSem5_V1.0.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "log de defectos",
       "version": "1.9",
       "notes": "update",
@@ -734,7 +735,7 @@
       "url": "./docs/lider-de-calidad/logs-de-defectos/logDefectos_v.1.9.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "control asignaciones",
       "version": "4.0",
       "notes": "update",
@@ -744,7 +745,7 @@
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignacionesV4.0.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "Especificación de requerimientos (SRS)",
       "version": "1.3",
       "phase": "requerimientos",
@@ -755,7 +756,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/Especificación-de-requerimientos(SRS)V1.3.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "actas de reuniones",
       "version": "1.0",
       "phase": "diseño",
@@ -766,7 +767,7 @@
       "url": "./docs/lider-de-calidad/actas-de-reuniones/1.0_Acta_090925.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "bitacoras de tiempo",
       "version": "5.0",
       "notes": "update",
@@ -776,7 +777,7 @@
       "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/Bitacora05_13092025.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "scripts",
       "version": "1.0",
       "phase": "diseño",
@@ -787,7 +788,7 @@
       "url": "./docs/lider-de-calidad/scripts/1.0_SCRIPT_Fase_Diseño.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "Especificación de diseño de software",
       "version": "1.0",
       "phase": "diseño",
@@ -798,7 +799,7 @@
       "url": "./docs/lider-de-calidad/diseño/Especificación-de-diseño-de-software.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "log de defectos",
       "version": "2.0",
       "notes": "update",
@@ -808,7 +809,7 @@
       "url": "./docs/lider-de-calidad/logs-de-defectos/logDefectos_v.2.0.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "log de defectos codigo",
       "version": "1.0",
       "notes": "update",
@@ -818,7 +819,7 @@
       "url": "./docs/lider-de-calidad/logs-de-defectos/codigo/logDefectos(Código)_v.1.0.pdf"
     },
     {
-      "role": "líder de calidad",
+      "role": "Líder de calidad",
       "name": "plan de administración y gestión de requerimientos",
       "version": "1.2",
       "phase": "requerimientos",
@@ -829,7 +830,7 @@
       "url": "./docs/lider-de-calidad/requerimientos/Plan-de-administración-y-gestión-de-requerimientosV1.2.pdf"
     },
     {
-      "role": "líder de desarrollo",
+      "role": "Líder de desarrollo",
       "name": "bitacoras de tiempo",
       "version": "5.1",
       "notes": "update",
@@ -839,7 +840,7 @@
       "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/5.1_Bitacora_Tiempo.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "bitacoras de tiempo",
       "version": "4.0",
       "notes": "update",
@@ -849,7 +850,7 @@
       "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/1.0_NicolasMoreno_09_092025.pdf"
     },
     {
-      "role": "líder de equipo",
+      "role": "Líder de equipo",
       "name": "soporte de realización",
       "version": "1.0",
       "phase": "diseño",
@@ -860,7 +861,7 @@
       "url": "./docs/lider-de-equipo/diseño/soporte-de-realizacion-diseño.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "EDT",
       "version": "1.0",
       "phase": "planeacion",
@@ -871,7 +872,7 @@
       "url": "./docs/lider-de-planeacion/planeacion/EDT-Iniciación.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "control asignaciones",
       "version": "5.0",
       "notes": "update",
@@ -881,7 +882,7 @@
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignacionesV5.0.pdf"
     },
     {
-      "role": "líder de planeación",
+      "role": "Líder de planeación",
       "name": "control asignaciones",
       "version": "6.0",
       "notes": "update",
@@ -891,7 +892,7 @@
       "url": "./docs/lider-de-planeacion/dt_ptl_controlAsignacionesV6.0.pdf"
     },
     {
-      "role": "líder de soporte",
+      "role": "Líder de soporte",
       "name": "control de versiones",
       "version": "2.0",
       "notes": "update",
@@ -899,6 +900,191 @@
       "contentType": "application/pdf",
       "updatedAt": "2025-09-03",
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV2.0.pdf"
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "role": "Ciclo-II",
+      "name": "Log de defectos",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "Log defectos.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/ciclo II/iniciación-II estrategia-II/Log defectos.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Script Iniciación-Estrategia",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_SCRIPT_Fase_de_Iniciación_y_Estrategia.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/ciclo II/iniciación-II estrategia-II/1.0_SCRIPT_Fase_de_Iniciación_y_Estrategia.docx.pdf"
+    },
+    {
+      "role": "Líder de equipo",
+      "name": "Soporte realización Iniciación-Estrategia",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_Soporte de realización_Fase_Ini_Est.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-equipo/1.0_Soporte de realización_Fase_Ini_Est.docx.pdf"
+    },
+    {
+      "role": "Líder de equipo",
+      "name": "Bitacora",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "Bitacora_120250812.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/Bitacora_120250812.pdf"
+    },
+    {
+      "role": "Líder de calidad",
+      "name": "Acta 231025",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_ACTA_231025.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-calidad/actas-de-reuniones/1.0_ACTA_231025.docx.pdf"
+    },
+    {
+      "role": "Líder de calidad",
+      "name": "Bitacora",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_Bitacora_Tiempo.docxLC.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/1.0_Bitacora_Tiempo.docxLC.pdf"
+    },
+    {
+      "role": "Líder de desarrollo",
+      "name": "Bitacora",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_Bitacora_Tiempo.docxLD.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/1.0_Bitacora_Tiempo.docxLD.pdf"
+    },
+    {
+      "role": "Líder de soporte",
+      "name": "Bitacora",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "Bitacora09_28102025LS.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-soporte/bitacora-de-tiempo/Bitacora09_28102025LS.pdf"
+    },
+    {
+      "role": "Líder de soporte",
+      "name": "Maestro de documentos",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "Maestro de documentos.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-soporte/control-de-versiones/Maestro de documentos.pdf"
+    },
+    {
+      "role": "Líder de planeación",
+      "name": "Control de asignaciones",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0Control de Asignaciones - Iniciación - Estrategia.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-planeacion/1.0Control de Asignaciones - Iniciación - Estrategia.pdf"
+    },
+    {
+      "role": "Líder de planeación",
+      "name": "Bitacora",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_BitacoraIniciación_24_102025.docLP.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/1.0_BitacoraIniciación_24_102025.docLP.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Acta Iniciación",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_Acta_Iniciación.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/ciclo II/iniciación-II estrategia-II/1.0_Acta_Iniciación.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Definición de estrategia",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_Definicion_de_estrategia.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/ciclo II/iniciación-II estrategia-II/1.0_Definicion_de_estrategia.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Plan de administración de configuración",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_Plan_Admin_Config_Cambios.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/ciclo II/iniciación-II estrategia-II/1.0_Plan_Admin_Config_Cambios.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Plan de riesgos",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "1.0_Plan_de_riesgos.docx (1).pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/ciclo II/iniciación-II estrategia-II/1.0_Plan_de_riesgos.docx (1).pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Seguimiento de riesgos",
+      "version": 1.0,
+      "phase": "iniciación-II | estrategia-II",
+      "notes": "Iniciación y Estrategia",
+      "filename": "Seguimiento de riesgos.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "2025-10-28",
+      "url": "./docs/ciclo II/iniciación-II estrategia-II/Seguimiento de riesgos.docx.pdf"
     }
   ]
 }

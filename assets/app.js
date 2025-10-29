@@ -1,14 +1,18 @@
 // --- Config ---
 const ROLES = [
-  'líder de calidad',
-  'líder de soporte',
-  'líder de desarrollo',
-  'líder de equipo',
-  'líder de planeación',
+  'Líder de calidad',
+  'Líder de soporte',
+  'Líder de desarrollo',
+  'Líder de equipo',
+  'Líder de planeación',
+  'Ciclo-II'
 ];
-const DEFAULT_ROLE = 'líder de calidad'; // tu rol por defecto
+const DEFAULT_ROLE = 'Líder de calidad'; // tu rol por defecto
 const MANIFEST_URL = './data/docs-manifest.json';
-const PHASES = ['iniciación', 'estrategia', 'requerimientos', 'planeación']; // orden de fases
+const PHASES = ['iniciación', 'estrategia', 'requerimientos', 'planeación', 
+                'diseño', 'implementación','pruebas', 'postmortem',
+                'iniciación-II | estrategia -II', 'requerimientos-II | planeación-II', 
+                'diseño-II | implementación-II','pruebas-II | postmortem-II']; // orden de fases
 
 
  const state = {
@@ -134,7 +138,10 @@ function renderList() {
   // Orden de fases (usa global PHASES si la declaraste arriba)
   const PHASES_ORDER = (typeof PHASES !== 'undefined' && Array.isArray(PHASES))
     ? PHASES
-    : ['iniciación', 'estrategia', 'requerimientos', 'planeación'];
+    : ['iniciación', 'estrategia', 'requerimientos', 'planeación', 
+                'diseño', 'implementación','pruebas', 'postmortem',
+                'iniciación-II | estrategia -II', 'requerimientos-II | planeación-II', 
+                'diseño-II | implementación-II','pruebas-II | postmortem-II'];
 
   // 1) Agrupar por fase
   const norm = (p) => (p || '').toString().trim().toLowerCase() || 'otras';
@@ -194,7 +201,7 @@ function renderList() {
       // Encabezado sin "Notas" (columna vacía para respetar tu grid de 5)
       wrap.innerHTML = `
         <div class="version-row" style="font-weight:700;">
-          <div></div>        <!-- col vacía en lugar de Notas -->
+          <div>Notas</div>        
           <div>Versión</div>
           <div>Actualizado</div>
           <div></div>        <!-- col vacía en lugar de Tamaño -->
@@ -205,7 +212,7 @@ function renderList() {
         const row = document.createElement('div');
         row.className = 'version-row';
         row.innerHTML = `
-          <div></div> <!-- col vacía -->
+          <div>${it.notes}</div> 
           <div><span class="kbd">v${it.version}</span></div>
           <div>${fmtDate(it.updatedAt)}</div>
           <div></div> <!-- col vacía -->
