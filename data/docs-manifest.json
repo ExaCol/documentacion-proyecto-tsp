@@ -906,10 +906,6 @@
 
 
 
-
-
-
-
     {
       "role": "Ciclo-II",
       "name": "Log de defectos",
@@ -1085,6 +1081,209 @@
       "contentType": "application/pdf",
       "updateAt": "2025-10-28",
       "url": "./docs/ciclo II/iniciación-II estrategia-II/Seguimiento de riesgos.docx.pdf"
+    },
+
+
+
+
+    
+    {
+      "role": "Ciclo-II",
+      "name": "EDT",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_EDT.xlsx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/1.0_EDT.xlsx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Plan aseguramiento calidad basado en defectos",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "Plan de aseguramiento de calidad basado en defectos.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/Plan de aseguramiento de calidad basado en defectos.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "SRS",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_Especificación de requerimientos (SRS).docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/1.0_Especificación de requerimientos (SRS).docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Maestro de documentos - Casos de uso",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_Maestro_Documentos_Casos_Uso - Hoja 1.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/1.0_Maestro_Documentos_Casos_Uso - Hoja 1.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Lista de chequeo",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_Lista de chequeo.xlsx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/1.0_Lista de chequeo.xlsx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Plan administración y gestión de requerimientos",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "Plan de administración y gestión de requerimientos.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/Plan de administración y gestión de requerimientos.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Detalle casos de uso",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_DetalleCasosUso.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/1.0_DetalleCasosUso.pdf"
+    },
+    {
+      "role": "LE",
+      "name": "Soporte de realización",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_Soporte de realización_Fase_Req_Plan.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-equipo/1.0_Soporte de realización_Fase_Req_Plan.docx.pdf"
+    },
+    {
+      "role": "LE",
+      "name": "Bitácora",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0 BitacoraTiempoSem2.docxLE.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/1.0 BitacoraTiempoSem2.docxLE.pdf"
+    },
+    {
+      "role": "LC",
+      "name": "Acta reunión",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_ACTA_281025.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-calidad/actas-de-reuniones/1.0_ACTA_281025.docx.pdf"
+    },
+    {
+      "role": "LC",
+      "name": "Bitácora",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "2.0_Bitacora_Tiempo.docxLC.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/2.0_Bitacora_Tiempo.docxLC.pdf"
+    },
+    {
+      "role": "LS",
+      "name": "Maestro de documentos",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "Control de versiones 2.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-soporte/control-de-versiones/Control de versiones 2.pdf"
+    },
+    {
+      "role": "LS",
+      "name": "Bitácora",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "Bitacora10_3112025LS.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-soporte/bitacoras-de-tiempo/Bitacora10_3112025LS.pdf"
+    },
+    {
+      "role": "LP",
+      "name": "Bitácora",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_BitacoraPlaneación_28_102025.docLP.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/1.0_BitacoraPlaneación_28_102025.docLP.pdf"
+    },
+    {
+      "role": "LP",
+      "name": "Control de asignaciones",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "2.0Control de Asignaciones - Planeación - Requerimientos.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-planeacion/2.0Control de Asignaciones - Planeación - Requerimientos.pdf"
+    },
+    {
+      "role": "LD",
+      "name": "Bitácora",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "2.0_Bitacora_Tiempo.docxLD.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/2.0_Bitacora_Tiempo.docxLD.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Log de defectos",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "Log defectos.docx2.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/Log defectos.docx2.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Script del proceso",
+      "version": 1.0,
+      "phase": "requerimientos-II | planeación-II",
+      "notes": "Requerimientos y planeación",
+      "filename": "1.0_SCRIPT_Fase_de_Planeación_y_Requerimientos.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "3/11/2025",
+      "url": "./docs/ciclo II/requerimientos-II planeación-II/1.0_SCRIPT_Fase_de_Planeación_y_Requerimientos.docx.pdf"
     }
   ]
 }
