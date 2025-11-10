@@ -12,7 +12,7 @@ const MANIFEST_URL = './data/docs-manifest.json';
 const PHASES = ['iniciación', 'estrategia', 'requerimientos', 'planeación', 
                 'diseño', 'implementación','pruebas', 'postmortem',
                 'iniciación-II | estrategia -II', 'requerimientos-II | planeación-II', 
-                'diseño-II | implementación-II','pruebas-II | postmortem-II']; // orden de fases
+                'diseño-II', 'implementación-II', 'pruebas-II | postmortem-II']; // orden de fases
 
 
  const state = {
@@ -141,7 +141,7 @@ function renderList() {
     : ['iniciación', 'estrategia', 'requerimientos', 'planeación', 
                 'diseño', 'implementación','pruebas', 'postmortem',
                 'iniciación-II | estrategia -II', 'requerimientos-II | planeación-II', 
-                'diseño-II | implementación-II','pruebas-II | postmortem-II'];
+                'diseño-II', 'implementación-II', 'pruebas-II | postmortem-II'];
 
   // 1) Agrupar por fase
   const norm = (p) => (p || '').toString().trim().toLowerCase() || 'otras';

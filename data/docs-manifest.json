@@ -902,10 +902,6 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV2.0.pdf"
     },
 
-
-
-
-
     {
       "role": "Ciclo-II",
       "name": "Log de defectos",
@@ -1082,6 +1078,9 @@
       "updateAt": "2025-10-28",
       "url": "./docs/ciclo II/iniciación-II estrategia-II/Seguimiento de riesgos.docx.pdf"
     },
+
+
+
 
 
 
@@ -1284,6 +1283,144 @@
       "contentType": "application/pdf",
       "updateAt": "3/11/2025",
       "url": "./docs/ciclo II/requerimientos-II planeación-II/1.0_SCRIPT_Fase_de_Planeación_y_Requerimientos.docx.pdf"
+    },
+
+
+
+
+
+
+    {
+      "role": "Ciclo-II",
+      "name": "Especificación de diseño de software",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "1.0_Especificación de diseño de software.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/ciclo II/diseño II/1.0_Especificación de diseño de software.docx.pdf"
+    },
+    {
+      "role": "LE",
+      "name": "Bitácora",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "1.0 BitacoraTiempoSem3.docxLE.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/1.0 BitacoraTiempoSem3.docxLE.pdf"
+    },
+    {
+      "role": "LE",
+      "name": "Soporte de realización",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "1.0_Soporte de realización_Fase_Diseño.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-equipo/1.0_Soporte de realización_Fase_Diseño.pdf"
+    },
+    {
+      "role": "LC",
+      "name": "Bitácora",
+      "version": 3.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "3.0_Bitacora_Tiempo.docxLC.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/3.0_Bitacora_Tiempo.docxLC.pdf"
+    },
+    {
+      "role": "LC",
+      "name": "Acta reunión",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "1.0_ACTA_041125.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-calidad/actas-de-reuniones/3.0_Bitacora_Tiempo.docxLC.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Script Diseño II",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "1.0_SCRIPT_Fase_Diseño.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/ciclo II/diseño II/1.0_SCRIPT_Fase_Diseño.docx.pdf"
+    },
+    {
+      "role": "LS",
+      "name": "Maestro de documentos",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "Control de versiones - Hoja 1.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-soporte/control-de-versiones/Control de versiones - Hoja 1.pdf"
+    },
+    {
+      "role": "LS",
+      "name": "Bitácora",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "Bitacora11_8112025LS.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-soporte/bitacoras-de-tiempo/Bitacora11_8112025LS.pdf"
+    },
+    {
+      "role": "LP",
+      "name": "Control de asignaciones",
+      "version": 3.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "3.0Control de Asignaciones - Diseño.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-planeacion/3.0Control de Asignaciones - Diseño.pdf"
+    },
+    {
+      "role": "LP",
+      "name": "Bitácora",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "1.0_BitacoraDiseno_04112025.docLP.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/1.0_BitacoraDiseno_04112025.docLP.pdf"
+    },
+    {
+      "role": "LD",
+      "name": "Bitácora",
+      "version": 3.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "3.0_Bitacora_Tiempo.docx (1)LD.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/3.0_Bitacora_Tiempo.docx (1)LD.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Log de defectos",
+      "version": 1.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "1.0_LogDefectos.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "9/11/2025",
+      "url": "./docs/ciclo II/diseño II/1.0_LogDefectos.docx.pdf"
     }
   ]
 }
