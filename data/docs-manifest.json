@@ -1421,6 +1421,28 @@
       "contentType": "application/pdf",
       "updateAt": "9/11/2025",
       "url": "./docs/ciclo II/diseño II/1.0_LogDefectos.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Script Diseño II",
+      "version": 2.0,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "2.0_SCRIPT_Fase_Diseño.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "12/11/2025",
+      "url": "./docs/ciclo II/diseño II/2.0_SCRIPT_Fase_Diseño.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Especificación de diseño de software",
+      "version": 1.1,
+      "phase": "diseño II",
+      "notes": "Diseño",
+      "filename": "1.1_Especificación de diseño de software.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "12/11/2025",
+      "url": "./docs/ciclo II/diseño II/1.1_Especificación de diseño de software.docx.pdf"
     }
   ]
 }
