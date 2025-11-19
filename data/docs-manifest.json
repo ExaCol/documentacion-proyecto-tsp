@@ -902,6 +902,14 @@
       "url": "./docs/lider-de-soporte/control-de-versiones/control-de-versionesV2.0.pdf"
     },
 
+
+
+
+
+
+
+    
+
     {
       "role": "Ciclo-II",
       "name": "Log de defectos",
@@ -1083,9 +1091,6 @@
 
 
 
-
-
-    
     {
       "role": "Ciclo-II",
       "name": "EDT",
@@ -1289,12 +1294,11 @@
 
 
 
-
     {
       "role": "Ciclo-II",
       "name": "Especificación de diseño de software",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "1.0_Especificación de diseño de software.docx.pdf",
       "contentType": "application/pdf",
@@ -1305,7 +1309,7 @@
       "role": "LE",
       "name": "Bitácora",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "1.0 BitacoraTiempoSem3.docxLE.pdf",
       "contentType": "application/pdf",
@@ -1316,7 +1320,7 @@
       "role": "LE",
       "name": "Soporte de realización",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "1.0_Soporte de realización_Fase_Diseño.pdf",
       "contentType": "application/pdf",
@@ -1327,7 +1331,7 @@
       "role": "LC",
       "name": "Bitácora",
       "version": 3.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "3.0_Bitacora_Tiempo.docxLC.pdf",
       "contentType": "application/pdf",
@@ -1338,7 +1342,7 @@
       "role": "LC",
       "name": "Acta reunión",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "1.0_ACTA_041125.docx.pdf",
       "contentType": "application/pdf",
@@ -1349,7 +1353,7 @@
       "role": "Ciclo-II",
       "name": "Script Diseño II",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "1.0_SCRIPT_Fase_Diseño.docx.pdf",
       "contentType": "application/pdf",
@@ -1360,7 +1364,7 @@
       "role": "LS",
       "name": "Maestro de documentos",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "Control de versiones - Hoja 1.pdf",
       "contentType": "application/pdf",
@@ -1371,7 +1375,7 @@
       "role": "LS",
       "name": "Bitácora",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "Bitacora11_8112025LS.pdf",
       "contentType": "application/pdf",
@@ -1382,7 +1386,7 @@
       "role": "LP",
       "name": "Control de asignaciones",
       "version": 3.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "3.0Control de Asignaciones - Diseño.pdf",
       "contentType": "application/pdf",
@@ -1393,7 +1397,7 @@
       "role": "LP",
       "name": "Bitácora",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "1.0_BitacoraDiseno_04112025.docLP.pdf",
       "contentType": "application/pdf",
@@ -1404,7 +1408,7 @@
       "role": "LD",
       "name": "Bitácora",
       "version": 3.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "3.0_Bitacora_Tiempo.docx (1)LD.pdf",
       "contentType": "application/pdf",
@@ -1415,7 +1419,7 @@
       "role": "Ciclo-II",
       "name": "Log de defectos",
       "version": 1.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "1.0_LogDefectos.docx.pdf",
       "contentType": "application/pdf",
@@ -1426,7 +1430,7 @@
       "role": "Ciclo-II",
       "name": "Script Diseño II",
       "version": 2.0,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "2.0_SCRIPT_Fase_Diseño.docx.pdf",
       "contentType": "application/pdf",
@@ -1437,12 +1441,291 @@
       "role": "Ciclo-II",
       "name": "Especificación de diseño de software",
       "version": 1.1,
-      "phase": "diseño II",
+      "phase": "diseño-II",
       "notes": "Diseño",
       "filename": "1.1_Especificación de diseño de software.docx.pdf",
       "contentType": "application/pdf",
       "updateAt": "12/11/2025",
       "url": "./docs/ciclo II/diseño II/1.1_Especificación de diseño de software.docx.pdf"
+    },
+
+
+
+
+    {
+      "role": "Ciclo-II",
+      "name": "Plan de pruebas unitarias",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Plan de pruebas unitarias.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Plan de pruebas unitarias.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Soporte de Revisión e Inspección de Código",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Soporte de Revisión e Inspección de Código.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Soporte de Revisión e Inspección de Código.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Informe Pruebas Unitarias",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Informe Pruebas Unitarias - Hoja 1.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Informe Pruebas Unitarias - Hoja 1.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Plan de Implementación",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Plan de Implementación.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Plan de Implementación.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Soporte de Revisión de Diseño",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Soporte de Revisón de Diseño.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Soporte de Revisón de Diseño.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Informe del plan de pruebas",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Informe del plan de pruebas.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Informe del plan de pruebas.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Plan de pruebas",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Plan de pruebas.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Plan de pruebas.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Manual técnico",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Manual técnico.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Manual técnico.docx.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Script Datos Usr y Vehicle",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Script Datos Usr y Vehicle.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Script Datos Usr y Vehicle.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Script de prueba pasarela de pagos",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "Script de prueba pasarela de pagos.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/Script de prueba pasarela de pagos.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Poblar tabla Services, Payments, Tarifa SOAT y TECNO",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Poblar tabla Services, Payments, Tarifa SOAT y TECNO.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Poblar tabla Services, Payments, Tarifa SOAT y TECNO.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Poblar tablas Usr y CoursesData",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Poblar tablas Usr y CoursesData.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Poblar tablas Usr y CoursesData.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Script Poblar tablas Usr, Partner y Services",
+      "version": 1.1,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Script Poblar tablas Usr, Partner y Services.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Script Poblar tablas Usr, Partner y Services.pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Script Eliminar Datos Tablas Usr y Vehicle",
+      "version": 2.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Script Eliminar Datos Tablas Usr y Vehicle .pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_Script Eliminar Datos Tablas Usr y Vehicle .pdf"
+    },
+    {
+      "role": "Ciclo-II",
+      "name": "Log de defectos",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_LogDefectos.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/ciclo II/implementación-II pruebas-II/1.0_LogDefectos.docx.pdf"
+    },
+    {
+      "role": "LC",
+      "name": "SCRIPT Fase Implementación y Pruebas",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_SCRIPT_Fase_Implementación_y_Pruebas.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-calidad/1.0_SCRIPT_Fase_Implementación_y_Pruebas.docx.pdf"
+    },
+    {
+      "role": "LC",
+      "name": "Bitácora de tiempo",
+      "version": 4.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "4.0_Bitacora_Tiempo.docxLC.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-calidad/bitacoras-de-tiempo/4.0_Bitacora_Tiempo.docxLC.pdf"
+    },
+    {
+      "role": "LC",
+      "name": "Acta 111125",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_ACTA_111125.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-calidad/actas-de-reuniones/1.0_ACTA_111125.docx.pdf"
+    },
+    {
+      "role": "LE",
+      "name": "Soporte de realización Fase Implementación y Pruebas",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_Soporte de realización_Fase_Implem_Pruebas.docx.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-equipo/1.0_Soporte de realización_Fase_Implem_Pruebas.docx.pdf"
+    },
+    {
+      "role": "LE",
+      "name": "Bitácora de tiempo",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0_BitacoraTiempoSem4.docxLE.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-equipo/bitacoras-de-tiempo/1.0_BitacoraTiempoSem4.docxLE.pdf"
+    },
+    {
+      "role": "LP",
+      "name": "Bitácora de tiempo",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "1.0BitacoraImpPruebas_11112025.docLP.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-planeacion/bitacoras-de-tiempo/1.0BitacoraImpPruebas_11112025.docLP.pdf"
+    },
+    {
+      "role": "LP",
+      "name": "Control de Asignaciones",
+      "version": 4.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "4.0Control de Asignaciones - Implementacion-Pruebas.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-planeacion/4.0Control de Asignaciones - Implementacion-Pruebas.pdf"
+    },
+    {
+      "role": "LD",
+      "name": "Bitácora de tiempo",
+      "version": 4.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "4.0_Bitacora_Tiempo.docxLD.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-desarrollo/bitacoras-de-tiempo/4.0_Bitacora_Tiempo.docxLD.pdf"
+    },
+    {
+      "role": "LS",
+      "name": "Control de versiones",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "Control de versiones ImpPru- Hoja 1.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-soporte/control-de-versiones/Control de versiones ImpPru- Hoja 1.pdf"
+    },
+    {
+      "role": "LS",
+      "name": "Bitácora de tiempo",
+      "version": 1.0,
+      "phase": "implementación-II | pruebas-II",
+      "notes": "Implementación II y Pruebas II",
+      "filename": "Bitacora12_17112025.pdf",
+      "contentType": "application/pdf",
+      "updateAt": "18/11/2025",
+      "url": "./docs/lider-de-soporte/bitacoras-de-tiempo/Bitacora12_17112025.pdf"
     }
   ]
 }
